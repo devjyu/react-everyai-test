@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header>
-      <div class="search">
+      <div className="search">
         <input
           type="text"
           placeholder="검색어를 입력해주세요"
-          class="search-field"
+          className="search-field"
         />
-        <button type="button" class="search-button">
+        <button type="button" className="search-button">
           <Image src="" alt="" /> {/*https://via.placeholder.com/30*/}
         </button>
       </div>
@@ -17,13 +17,13 @@ export default function Header() {
         <div>
           <Image src="" alt="" /> {/*https://via.placeholder.com/40*/}
         </div>
-        <div class="nickname">닉네임</div>
+        <div className="nickname">닉네임</div>
       </div>
-      <div class="alarm">
-        <div class="alarm-image">
+      <div className="alarm">
+        <div className="alarm-image">
           <Image src="" alt="" /> {/*https://via.placeholder.com/30x50  */}
         </div>
-        <div class="alarm-state-image"></div>
+        <div className="alarm-state-image"></div>
       </div>
     </header>
   );

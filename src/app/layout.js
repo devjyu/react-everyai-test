@@ -1,4 +1,6 @@
-import "/app/globals.css";
+import "./globals.css"
+import Header from "./component/header";
+import Footer from "./component/footer";
 
 export const metadata = {
   title: "Every Ai",
@@ -8,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="kr">
+      <Header />
       <body>{children}</body>
+      <Footer />
     </html>
   );
 }

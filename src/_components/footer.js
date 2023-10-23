@@ -21,6 +21,7 @@ export default function Footer() {
         <div className="footer-center-element">
           <Image src="" alt="" /> {/*http://via.placeholder.com/80*/}
         </div>
+        <div className="footer-center-circle"></div>
       </div>
       <div className="footer-right">
         <div className="footer-right-element">

@@ -8,6 +8,11 @@
     /* 가로 가운데 정렬 */
 }
 
+.main-inner-center-box{
+    display: flex;
+    justify-content: center;
+}
+
 .main-inner-center-box {
     width: 100%;
     height: 50%;
@@ -17,7 +22,7 @@
 }
 
 .main-category-box {
-    width: 70%;
+    width: 100%;
     height: 200px;
     display: grid;
     justify-content: center;
@@ -133,4 +138,5 @@
 
 .main-recommand-name {
     font-size: 15px;
+    text-align: center;
 }

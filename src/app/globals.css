@@ -208,6 +208,17 @@
     justify-content: center;
     align-items: center;
   }
+
+  .footer-center-circle {
+    border-top: 120px solid #e6e6e6;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top: -45px;
+    width: 0;
+    border-radius: 50%;
+    left: -50px;
+  }
   
   .footer-left,
   .footer-right {
@@ -219,20 +230,6 @@
     display: inline-block;
     position: relative;
     bottom: 20px;
-  }
-  
-  .footer-center:before {
-    border-top: 200px solid #e6e6e6;
-    border-left: 160px solid transparent;
-    border-right: 160px solid transparent;
-    content: "";
-    height: 60px;
-    left: -60px;
-    position: absolute;
-    top: -20px;
-    width: 0;
-    border-radius: 50%;
-    z-index: 0;
   }
   
   .footer-left-element,

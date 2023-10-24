@@ -1,11 +1,10 @@
-import "@/app/submain/layout";
 import '@/app/globals.css';
 import '@/app/submain/submain.css';
 
-import MainLayout from "@/app/_components/main-layout";
-import Title from "./submain-components/submain-title";
-import SubmainSort from "./submain-components/submain-sort";
-import SubmainServiceCard from "./submain-components/submain-service-card";
+import MainLayout from "@/_components/main-layout";
+import Title from "./_components/submain-title";
+import SubmainSort from "./_components/submain-sort";
+import SubmainServiceCard from "./_components/submain-service-card";
 
 
 export default function Submain() {

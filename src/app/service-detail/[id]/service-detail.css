@@ -424,8 +424,14 @@
   width: 80%;
 }
 
-#more-button{
+/* id */
+#content-detail-container{
   position: relative;
-  left: 100px;
-  top: 5px;
+}
+
+#more-button{
+  position: absolute;
+  /* width: 30%; */
+  right: 60px;
+  bottom: 0px;
 }

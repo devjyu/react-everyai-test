@@ -1,0 +1,204 @@
+input {
+    width: 100%;
+    height: 50px;
+    /* 테두리 색상을 연하게 지정 (투명도를 조절) */
+}
+
+/* class */
+
+.inner-container > div {
+    margin: 20px 0px;
+}
+
+.inner-container > div > label {
+    margin-bottom: 10px;
+}
+
+.inner-container input:focus {
+    border-color: #3e9ce4;
+    outline: none;
+}
+
+.join-title {
+    font-weight: bold;
+}
+
+.join-every-ai {
+    color: #3e9ce4;
+}
+
+.join-title-information {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.email > div {
+    margin: 5px 0px;
+}
+
+.star {
+    color: red;
+}
+
+.email-send, .email-check {
+    display: flex;
+}
+
+.email-check-button, .email-send-button {
+    width: 95px;
+}
+
+.password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.password > div {
+    margin: 5px 0px;
+}
+
+.occupation {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.occupation .occupation-select {
+    margin: 5px, 0px;
+}
+
+.business {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.business .business-select {
+    margin: 5px 0px;
+}
+
+.join-old {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.orderup {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.join-terms-of-service {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.terms-of-service {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.join-personal-information {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.personal-information {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.join-marketing {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.marketing {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.join-activate {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.activate {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.join-all-agree {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.all-agree {
+    color: #adadad;
+    font-size: 15px;
+}
+
+.join-membership {
+    height: 50px;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* id */
+#occupation {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #adadad;
+    /* 테두리 색상을 연하게 지정 (투명도를 조절) */
+}
+
+#business {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #adadad;
+    /* 테두리 색상을 연하게 지정 (투명도를 조절) */
+}
+
+#password {
+    margin-bottom: 5px;
+}
+
+#ord {
+    border-color: #adadad;
+}

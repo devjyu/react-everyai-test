@@ -1,0 +1,20 @@
+import "@/app/globals.css";
+
+export const metadata = {
+  title: "Every Ai",
+  description: "ai 창작물 전문 플랫폼",
+};
+
+export default function UserLayout({children}) {
+  return (
+    <html lang="kr">
+      <body>
+        <div className="no-container">
+            <div className="inner-container">
+                {children}
+            </div>
+        </div>
+      </body>
+    </html>
+  );
+}

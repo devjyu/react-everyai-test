@@ -5,7 +5,7 @@ import Button from './login-components/movement-button';
 import SocialLogin from './login-components/social-login';
 
 
-export default function login() {
+export default function Login() {
   return (
     <>
       <Comment />

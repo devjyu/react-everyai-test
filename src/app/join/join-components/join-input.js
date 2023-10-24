@@ -24,7 +24,7 @@ export default function JoinInput() {
             <div className="occupation">
                 <label>직업 <span className="star">*</span></label>
                 <div className="occupation-select">
-                    <select id="occupation" placeholder="선택하기">
+                    <select placeholder="선택하기">
                         <option value="" disabled selected>선택하기</option>
                         <option value="직장인">직장인</option>
                         <option value="공무원">공무원</option>
@@ -40,7 +40,7 @@ export default function JoinInput() {
             <div className="business">
                 <label>(비즈니스)분야 <span className="star">*</span></label>
                 <div className="business-select">
-                    <select id="business" placeholder="선택하기">
+                    <select placeholder="선택하기">
                         <option value="" disabled selected>선택하기(단일분야)</option>
                         <option value="IT 개발">IT 개발</option>
                         <option value="콘텐츠 제작">콘텐츠 제작</option>
@@ -60,36 +60,36 @@ export default function JoinInput() {
             </div>
             <div className="join-old">
                 <div className="orderup">만 14세 이상입니다.</div>
-                <div className="checkbox"><input type="checkbox" name="" id="old" /></div>
+                <div className="checkbox"><input type="checkbox" /></div>
             </div>
             <div className="join-terms-of-service">
                 <div className="terms-of-service">서비스 이용약관에 동의합니다.</div>
                 <div className="checkbox">
-                <input type="checkbox" name="" id="terms-of-service" />
+                <input type="checkbox" />
                 </div>
             </div>
             <div className="join-personal-information">
                 <div className="personal-information">개인정보수집 이용에 동의합니다</div>
                 <div className="checkbox">
-                <input type="checkbox" name="" id="personal-information" />
+                <input type="checkbox" />
                 </div>
             </div>
             <div className="join-marketing">
                 <div className="marketing">마켓팅 수신 홍보목적의 개인정보<br />수집 및 이용에 동의합니다. (선택)</div>
                 <div className="checkbox">
-                <input type="checkbox" name="" id="marketing" />
+                <input type="checkbox" />
                 </div>
             </div>
             <div className="join-activate">
                 <div className="activate">1년 미접속 시에도 계정을 활성화<br /> 상태로유지합니다. (선택)</div>
                 <div className="checkbox">
-                <input type="checkbox" name="" id="activate" />
+                <input type="checkbox" />
                 </div>
             </div>
             <div className="join-all-agree">
                 <div className="all-agree">모두 동의하기</div>
                 <div className="checkbox">
-                <input type="checkbox" name="" id="all-agree" />
+                <input type="checkbox" />
                 </div>
             </div>
             <button className="join-membership">버튼을 눌러서 회원가입 완료!</button>

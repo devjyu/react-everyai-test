@@ -7,11 +7,9 @@ import JoinInput from './join-components/join-input';
 export default function Join() {
     return(
         <UserLayout>
-            <div class="join">
-                <JoinText />
-                <JoinSubText />
-                <JoinInput />
-            </div>
+            <JoinText />
+            <JoinSubText />
+            <JoinInput />
         </UserLayout>
     );
 }

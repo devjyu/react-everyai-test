@@ -4,27 +4,17 @@ input {
     /* 테두리 색상을 연하게 지정 (투명도를 조절) */
 }
 
-select:focus {
-    outline: solid 1px #3e9ce4;
-}
-
 /* class */
 
-.join {
-    max-width: 350px;
-    width: 100%;
-    margin: auto;
-}
-
-.join > div {
+.inner-container > div {
     margin: 20px 0px;
 }
 
-.join > div > label {
+.inner-container > div > label {
     margin-bottom: 10px;
 }
 
-.join input:focus {
+.inner-container input:focus {
     border-color: #3e9ce4;
     outline: none;
 }

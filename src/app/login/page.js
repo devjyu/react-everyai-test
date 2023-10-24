@@ -9,12 +9,10 @@ import SocialLogin from './login-components/social-login';
 export default function Login() {
   return (
     <UserLayout>
-      <div class="login-container">
-        <LoginText />
-        <LoginInput />
-        <MovementButton />
-        <SocialLogin />
-      </div>
+      <LoginText />
+      <LoginInput />
+      <MovementButton />
+      <SocialLogin />
     </UserLayout>
   )
 }

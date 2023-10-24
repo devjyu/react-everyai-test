@@ -13,7 +13,7 @@ export default function EmailCheckInput() {
                 <InputField type="text" placeholder="인증번호를 입력해주세요" />
                 <button className="email-check-button">확인</button>
             </div>
-            <button id="updateButton">비밀번호 변경</button>
+            <button className="check-button">이메일 확인하기</button>
         </div>
     );
 }

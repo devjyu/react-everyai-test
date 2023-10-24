@@ -81,10 +81,10 @@ input {
 }
 
 .join-agree > div {
-    margin: 20px 0px;
+    margin: 25px 0px;
 }
 
-.join-old {
+.join-agree-detail {
     height: 30px;
     display: flex;
     align-items: center;
@@ -92,78 +92,17 @@ input {
     margin-top: 10px;
 }
 
-.orderup {
+.join-agree-detail-title {
     color: #adadad;
     font-size: 15px;
+    width: 100%;
+    margin-right: 20px;
+    height: 15px;
 }
 
 .checkbox {
     margin-right: 10px;
-}
-
-.join-terms-of-service {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.terms-of-service {
-    color: #adadad;
-    font-size: 15px;
-}
-
-.join-personal-information {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.personal-information {
-    color: #adadad;
-    font-size: 15px;
-}
-
-.join-marketing {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.marketing {
-    color: #adadad;
-    font-size: 15px;
-}
-
-.join-activate {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.activate {
-    color: #adadad;
-    font-size: 15px;
-}
-
-.join-all-agree {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.all-agree {
-    color: #adadad;
-    font-size: 15px;
+    width: 15px;
 }
 
 .join-membership {

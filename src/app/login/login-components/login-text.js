@@ -1,4 +1,4 @@
-export default function comment() {
+export default function LoginText() {
     return (
         <>
             <span className="info">Welcome to</span> <span id="every-ai" class="info">Every AI</span>

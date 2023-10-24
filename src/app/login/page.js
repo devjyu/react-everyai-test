@@ -1,8 +1,8 @@
 import '@/app/login/login.css';
-import Comment from './login-components/comment';
-import Input from './login-components/input';
-import Button from './login-components/button';
-import Social from './login-components/social';
+import Comment from './login-components/login-text';
+import Input from './login-components/login-input';
+import Button from './login-components/movement-button';
+import SocialLogin from './login-components/social-login';
 
 
 export default function login() {
@@ -11,7 +11,7 @@ export default function login() {
       <Comment />
       <Input />
       <Button />
-      <Social />
+      <SocialLogin />
     </>
   )
 }

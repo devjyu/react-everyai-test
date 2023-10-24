@@ -1,6 +1,4 @@
-import DashboardLayout from '@/app/login/layout'
-
-export default function social() {
+export default function SocialLogin() {
     return (
         <>
             {/* <!-- 소셜 로그인 --> */}

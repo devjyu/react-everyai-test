@@ -1,4 +1,4 @@
-export default function button() {
+export default function MovementButton() {
     return (
         // {/* <!-- 회원가입 / 찾기 링크 --> */}
         // {/* <!-- class 이름 수정 필요 --> */}

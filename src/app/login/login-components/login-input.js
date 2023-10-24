@@ -1,4 +1,4 @@
-export default function input() {
+export default function LoginInput() {
     return(
     // <!-- 입력 박스 -->
     <div className="input-box">

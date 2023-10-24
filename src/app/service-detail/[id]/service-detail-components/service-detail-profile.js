@@ -12,7 +12,7 @@ export default function Profile() {
         <div className="profile-content">
           <div>평균 응답 시간 : &#123;30분 이내&#125;</div>
           <div className="profile-content-status">
-            <div class="profile-content-status-detail right-bold">
+            <div className="profile-content-status-detail right-bold">
               <span>&#123;54&#125;건</span>
               <p>판매건수</p>
             </div>

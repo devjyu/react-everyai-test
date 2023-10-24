@@ -7,7 +7,7 @@ export default function Content() {
                     <div className="title-2-level">LEVEL &#123;3&#125;</div>
                     <div className="title-2-heart">
                         <div className="title-2-heart-img">
-                            <img src="img/heart.png" alt="하트 이미지" />
+                            {/* <img src="img/heart.png" alt="하트 이미지" /> */}
                         </div>
                         <div className="title-2-heart-count">&nbsp;&#123; 12, 345 &#125;</div>
                     </div>

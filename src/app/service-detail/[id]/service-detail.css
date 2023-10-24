@@ -1,425 +1,431 @@
 /* 맨위 미리보기? */
 .container {
-    padding: 0;
-    margin-bottom: 120px;
-    height: 2200px;
+  padding: 0;
+  margin-bottom: 120px;
+  height: 2200px;
 }
 
 .container-inner-box {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .preview-container {
-    height: 300px;
-    z-index: 0;
-    position: relative;
-    /* 상대 위치 지정 */
+  height: 300px;
+  z-index: 0;
+  position: relative;
+  /* 상대 위치 지정 */
 }
 
 .preview-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
-
 
 /* 미리보기를 뺀 나머지 컨테이너 */
 .content-container {
-    background-color: white;
-    margin-top: -20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    flex-grow: 1;
-    padding: 5px 45px;
-    z-index: 0;
-    position: relative;
-    /* 상대 위치 지정 */
+  background-color: white;
+  margin-top: -20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  flex-grow: 1;
+  padding: 5px 45px;
+  z-index: 0;
+  position: relative;
+  /* 상대 위치 지정 */
 }
 
 /* 내용 컨테이너 */
 .content-detail_container {
-    border: 1px solid #adadad;
-    border-radius: 5px;
-    margin-bottom: 20px;
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .service-container {
-    height: 600px;
+  height: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+.all-show-service-container {
+  height: 100%;
+}
+
+/* height 600px 이하면 버튼 숨김 */
+.hidden {
+  display: none;
 }
 
 /* 내용 컨테이너 - 타이틀*/
 .content-detail_container-title {
-    background-color: #f2f2f2;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 15px 20px;
+  background-color: #f2f2f2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 15px 20px;
 }
-
 
 /* 카테고리, 레벨+하트, 제목 */
 .title-container {
-    /*border: 1px solid aquamarine;*/
-    margin: 20px 3% 10px 3%;
+  /*border: 1px solid aquamarine;*/
+  margin: 20px 3% 10px 3%;
 }
 
 .title-1-category {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .title-2 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .title-2-level {
-    background-color: #d9d9d9;
-    color: #5e5e5e;
-    padding: 4px 5px;
-    line-height: 1;
-    /* 텍스트의 위아래 간격을 동일하게 설정 */
-    border-radius: 5px;
+  background-color: #d9d9d9;
+  color: #5e5e5e;
+  padding: 4px 5px;
+  line-height: 1;
+  /* 텍스트의 위아래 간격을 동일하게 설정 */
+  border-radius: 5px;
 }
 
 .title-2-heart {
-    display: flex;
+  display: flex;
 }
 
 .title-3-title {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /* 타입 전체 컨테이너 */
 .option-container {
-    border: 1px solid #adadad;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 15px;
+  border: 1px solid #adadad;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 15px;
 }
 
 /* 타입 3개 고르기 */
 .option-type-container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .option-type-1 {
-    font-weight: bold;
-    border-top: 5px solid #3E9CED;
+  font-weight: bold;
+  border-top: 5px solid #3e9ced;
 }
 
 /* 타입 상세옵션 */
 .option-detail-container {
-    margin-top: 20px;
-    border: 2px solid #f2f2f2;
-    border-radius: 5px;
-    padding: 15px 30px;
+  margin-top: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 15px 30px;
 }
 
 /* 소개글? */
 .content-detail_container {
-    margin: 15px 45px;
+  margin: 15px 45px;
 }
 
 .option-detail-condition-1 {
-    margin-bottom: 7px;
-    font-weight: bold;
+  margin-bottom: 7px;
+  font-weight: bold;
 }
 
 .option-detail-condition-2 {
-    color: #adadad;
-    font-size: 15px;
-    margin-bottom: 20px;
+  color: #adadad;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 /* 상세옵션 고르기 단일 */
 .option-detail-check {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
 }
-
 
 /* 전문가 소개 */
 .profile-container {
-    position: relative;
-    /* 부모 요소를 relative로 설정 */
+  position: relative;
+  /* 부모 요소를 relative로 설정 */
 }
 
 .profile-image {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    box-shadow:
-        0 0 0 3px white,
-        /* 내부 테두리 (두께 조절 가능) */
-        0 0 0 4px #d9d9d9;
-    /* 외부 테두리 (두께 조절 가능) */
-    position: absolute;
-    /* 이미지를 절대 위치로 설정 */
-    top: 20px;
-    /* 원하는 수직 위치 설정 */
-    right: 20px;
-    /* 원하는 수평 위치 설정 */
-    z-index: 0;
-    /* 이미지를 텍스트 아래로 배치 */
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px white,
+    /* 내부 테두리 (두께 조절 가능) */ 0 0 0 4px #d9d9d9;
+  /* 외부 테두리 (두께 조절 가능) */
+  position: absolute;
+  /* 이미지를 절대 위치로 설정 */
+  top: 20px;
+  /* 원하는 수직 위치 설정 */
+  right: 20px;
+  /* 원하는 수평 위치 설정 */
+  z-index: 0;
+  /* 이미지를 텍스트 아래로 배치 */
 }
 
 /* 전문가 소개 타이틀 */
 .profile-title-1 {
-    display: flex;
+  display: flex;
 }
 
 .profile-title-1 div {
-    background-color: #d9d9d9;
-    color: #5e5e5e;
-    padding: 5px 8px;
-    line-height: 1;
-    /* 텍스트의 위아래 간격을 동일하게 설정 */
-    margin-bottom: 10px;
+  background-color: #d9d9d9;
+  color: #5e5e5e;
+  padding: 5px 8px;
+  line-height: 1;
+  /* 텍스트의 위아래 간격을 동일하게 설정 */
+  margin-bottom: 10px;
 }
 
 .profile-title-2 {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* 전문가 소개 내용 */
 .profile-content {
-    padding: 20px;
-    /*    TODO 임시 길이 */
-    height: 200px;
+  padding: 20px;
+  /*    TODO 임시 길이 */
+  height: 200px;
 }
 
-
 .profile-content-status {
-    height: 80px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
+  height: 80px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .right-bold {
-    border-right: 1px solid #adadad;
+  border-right: 1px solid #adadad;
 }
 
 .profile-content-status-detail {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-content-status-detail span {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .profile-content-status-detail p {
-    font-size: 15px;
-    color: #5e5e67;
+  font-size: 15px;
+  color: #5e5e67;
 }
 
 .profile-content-request-button {
-    width: 100%;
-    height: 60px;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid #9d9d9d;
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #9d9d9d;
 }
-
 
 /* 글 내용 (서비스 설명) */
 
 /* 서비스 설명 타이틀*/
 
 .service-title p {
-    color: #5e5e5e;
-    font-size: 20px;
-    margin-top: 0;
+  color: #5e5e5e;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 /* 서비스 설명 내용 */
 .service-content-container {
-    text-align: center;
+  text-align: center;
 }
 
 .service-content p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .service-content img {
-    max-width: 100%;
-    height: 300px;
+  max-width: 100%;
+  height: 300px;
 }
 
 /* 더보기 버튼 */
 .more-button {
-    width: 80%;
-    height: 50px;
-    margin-bottom: 15px;
-    margin-top: 30px;
-    border-radius: 5px;
-    text-decoration: underline;
-    cursor: pointer;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* 리뷰 */
 
 /* 리뷰 타이틀 */
 .review-title {
-    color: #5e5e5e;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  color: #5e5e5e;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .review-title-rating {
-    display: flex;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
-    align-items: center;
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
 }
 
 .review-title-rating-score {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .review-title-rating-star img {
-    width: 15px;
-    /* 별 이미지의 너비 조정 */
-    height: 15px;
-    /* 별 이미지의 높이 조정 */
-    margin-right: 2px;
-    /* 각 별 이미지 사이에 오른쪽 여백 추가 */
+  width: 15px;
+  /* 별 이미지의 너비 조정 */
+  height: 15px;
+  /* 별 이미지의 높이 조정 */
+  margin-right: 2px;
+  /* 각 별 이미지 사이에 오른쪽 여백 추가 */
 }
 
 .review-title-rating-count {
-    font-size: 12px;
-    font-weight: bold;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .review-content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .review-content-photo_review-text,
 .review-content-all_review-text {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-
 .review-content-photo_review-text {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .review-content-photo_review-img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .review-content-all_review-content-detail {
-    display: flex;
+  display: flex;
 }
 
 .review-content-all_review-content-detail-user_review {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .review-content-all_review-content-detail-user_profile img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .review-content-all_review-reply {
-    margin-top: 20px;
-    padding-left: 40px;
-    display: flex;
+  margin-top: 20px;
+  padding-left: 40px;
+  display: flex;
 }
 
 .review-content-all_review-reply-arrow img {
-    width: 30px;
+  width: 30px;
 }
 
 .review-content-all_review-reply-username {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .review-content-all_review-reply-detail {
-    color: #737373;
+  color: #737373;
 }
 
 .review-content-all_review-reply-content {
-    background-color: #EAEAEA;
-    border-radius: 20px;
-    padding: 10px 20px;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
 
 .review-content-all_review-reply-content p {
-    font-size: 13px;
+  font-size: 13px;
 }
-
-
 
 /* id */
 /*결제 동의 & 결제하기 버튼 */
 .payment-agree-paybtn {
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 77px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 77px;
 }
 
-.payment-agree-paybtn>div {
-    width: 100%;
-    max-width: 768px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    border: solid 1px #adadad;
+.payment-agree-paybtn > div {
+  width: 100%;
+  max-width: 768px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: solid 1px #adadad;
 }
 
-.payment-agree-paybtn>div>div {
-    display: flex;
+.payment-agree-paybtn > div > div {
+  display: flex;
 }
 
-.payment-agree-paybtn>div>div>button {
-    height: 50px;
-    width: 100px;
-    border-radius: 5px;
-    font-size: 1vw;
-    padding: 5px;
-    margin-left: 10px;
+.payment-agree-paybtn > div > div > button {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 1vw;
+  padding: 5px;
+  margin-left: 10px;
 }
 
-.payment-agree-paybtn>div>div>img {
-    /* width: 100%; */
-    padding: 5px;
+.payment-agree-paybtn > div > div > img {
+  /* width: 100%; */
+  padding: 5px;
 }
 
 .all-show-button {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.all-show-button>button {
-    height: 50px;
-    width: 80%;
+.all-show-button > button {
+  height: 50px;
+  width: 80%;
+}
+
+#more-button{
+  position: relative;
+  left: 100px;
+  top: 5px;
 }

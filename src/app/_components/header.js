@@ -13,7 +13,7 @@ export default function Header() {
           <Image src="" alt="" /> {/*https://via.placeholder.com/30*/}
         </button>
       </div>
-      <div class="user-infor">
+      <div className="user-infor">
         <div>
           <Image src="" alt="" /> {/*https://via.placeholder.com/40*/}
         </div>

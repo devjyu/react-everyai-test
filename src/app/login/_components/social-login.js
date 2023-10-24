@@ -1,7 +1,4 @@
 import Image from "next/image";
-import KakaoLogin from "@/app/asset/kakao-logo.png";
-import NaverLogin from "@/app/asset/naver-logo.png";
-import GoogleLogin from "@/app/asset/google-logo.png";
 
 export default function SocialLogin() {
     return (
@@ -9,15 +6,15 @@ export default function SocialLogin() {
             {/* <!-- 소셜 로그인 --> */}
             <div className="social-login">
                 <div className="kakao-login">
-                    <Image src={KakaoLogin} />
+                    <Image src="/kakao-logo.png" width="50" height="50" />
                     <button className="kakao-login-button">카카오 로그인</button>
                 </div>
                 <div className="naver-login">
-                    <Image src={NaverLogin} />
+                    <Image src="/naver-logo.png" width="50" height="50" />
                     <button className="naver-login-button">네이버 로그인</button>
                 </div>
                 <div className="google-login">
-                    <Image src={GoogleLogin} />
+                    <Image src="/google-logo.png" width="50" height="50" />
                     <button className="google-login-button">구글로 로그인</button>
                 </div>
             </div>

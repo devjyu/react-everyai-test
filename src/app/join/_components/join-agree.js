@@ -1,4 +1,4 @@
-import CheckboxField from "@/app/_components/check-field";
+import CheckboxField from "@/_components/check-field";
 
 export default function JoinAgree() {
   return (

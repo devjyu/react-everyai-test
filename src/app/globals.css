@@ -79,7 +79,7 @@
     border-radius: 5px;
   }
 
-  input[type="checkbox"]:focus  {
+  input[type="checkbox"]:focus, input[type="email"]:focus, input[type="text"]:focus  {
     outline: solid 1px #3e9ce4;
   }
 

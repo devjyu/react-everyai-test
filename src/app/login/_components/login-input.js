@@ -1,4 +1,4 @@
-import InputField from "@/app/_components/input-field";
+import InputField from "@/_components/input-field";
 
 export default function LoginInput() {
     return(

@@ -1,6 +1,6 @@
 import "@/app/globals.css";
-import Header from "@/app/_components/header";
-import Footer from "@/app/_components/footer";
+import Header from "@/_components/header";
+import Footer from "@/_components/footer";
 
 export const metadata = {
   title: "Every Ai",

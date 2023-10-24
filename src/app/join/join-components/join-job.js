@@ -1,4 +1,4 @@
-import SelectField from "@/app/_components/selectfield";
+import SelectField from "@/app/_components/select-field";
 
 export default function JoinJob() {
 

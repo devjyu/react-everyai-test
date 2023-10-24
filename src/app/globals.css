@@ -54,7 +54,7 @@
     border-radius: 10px;
     border: none;
     font-size: 15px;
-    color: #808080;
+    color: #2d2d2d;
     border-radius: 5px;
     background-color: #e5e5e5;
     cursor: pointer;
@@ -79,7 +79,7 @@
     border-radius: 5px;
   }
 
-  input[type="checkbox"]:focus  {
+  input[type="checkbox"]:focus, input[type="email"]:focus, input[type="text"]:focus  {
     outline: solid 1px #3e9ce4;
   }
 

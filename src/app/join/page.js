@@ -1,13 +1,13 @@
 import '@/app/join/join.css';
-import UserLayout from '../_components/user-layout';
-import JoinText from './join-components/join-text';
-import JoinSubText from './join-components/join-sub-text';
-import JoinEmail from './join-components/join-email';
-import JoinPassword from './join-components/join-password';
-import JoinJob from './join-components/join-job';
-import JoinBusiness from './join-components/join-business';
-import JoinAgree from './join-components/join-agree';
-import JoinButton from './join-components/join-button';
+import UserLayout from '../../_components/user-layout';
+import JoinText from './_components/join-text';
+import JoinSubText from './_components/join-sub-text';
+import JoinEmail from './_components/join-email';
+import JoinPassword from './_components/join-password';
+import JoinJob from './_components/join-job';
+import JoinBusiness from './_components/join-business';
+import JoinAgree from './_components/join-agree';
+import JoinButton from './_components/join-button';
 
 export default function Join() {
     return(

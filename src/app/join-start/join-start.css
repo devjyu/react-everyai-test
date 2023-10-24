@@ -1,0 +1,41 @@
+button {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* class */
+.instructions {
+    font-size: 45px;
+}
+
+.inner-container > p {
+    margin-top: 15px;
+    color: #adadad;
+    font-size: 15px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.font-large {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0px 10px 0px;
+}
+
+.font-small {
+    margin-bottom: 5px;
+}
+
+.choice-button {
+    margin-top: 50px;
+}
+
+.choice-button > button {
+    width: 100%;
+    margin-top: 30px;
+}

@@ -1,4 +1,5 @@
 import "@/app/globals.css";
+import Logo from "./logo";
 
 export const metadata = {
   title: "Every Ai",
@@ -9,6 +10,7 @@ export default function UserLayout({children}) {
   return (
     <html lang="kr">
       <body>
+        <Logo />
         <div className="no-container">
             <div className="inner-container">
                 {children}

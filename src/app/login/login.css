@@ -1,3 +1,12 @@
+:root {
+    --kakaocolor : rgb(255, 235, 0);
+    --kakaotext : #000;
+    --navercolor : #03c75a;
+    --navertext : #fff;
+    --googlecolor : rgb(242, 242, 242);
+    --googletext : #1f1f1f;
+  }
+
 /* class */
 .everyai {
     color: #3e9ce4;
@@ -9,10 +18,42 @@
     margin-bottom: 30px;
 }
 
-.social-login>button {
+.social-login > div {
+    display: flex;
     height: 50px;
     width: 100%;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.social-login > div > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0px;
+}
+
+.social-login > div > button {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.kakao-login, .kakao-login-button, .kakao-login-button:hover, .kakao-login-button:focus {
+    background-color: var(--kakaocolor);
+    color: black;
+    outline: none;
+}
+
+.naver-login, .naver-login-button, .naver-login-button:hover, .naver-login-button:focus {
+    background-color: var(--navercolor);
+    color: var(--navertext);
+    outline: none;
+}
+
+.google-login, .google-login-button, .google-login-button:hover, .google-login-button:focus {
+    background-color: var(--googlecolor);
+    color: var(--googletext);
+    outline: none;
 }
 
 .input-item {
@@ -38,14 +79,15 @@
     outline: none;
 }
 
-.herf {
-    margin: 10px 0px;
+.movement {
+    margin: 10px 0px 30px 0px;
     display: flex;
     justify-content: space-around;
 }
 
-.herf > a {
+.movement > a {
     font-size: 10px;
+    font-weight: 100;
 }
 
 .login-button {

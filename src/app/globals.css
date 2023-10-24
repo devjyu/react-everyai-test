@@ -74,6 +74,11 @@
     border: solid 1px #adadad;
   }
 
+  select {
+    border: solid 1px #adadad;
+    border-radius: 5px;
+  }
+
   input[type="checkbox"]:focus  {
     outline: solid 1px #3e9ce4;
   }

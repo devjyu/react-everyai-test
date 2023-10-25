@@ -3,12 +3,12 @@ import "@/app/service-detail/[id]/service-detail.css";
 import '@/app/globals.css';
 
 import MainLayout from "@/_components/main-layout";
-import Preview from "./_components/service-detail-preview";
-import Review from "./_components/service-detail-review";
-import Agree from "./_components/service-detail-agree";
-import Profile from "./_components/service-detail-profile";
-import Content from "./_components/service-detail-content";
-import Service from "./_components/service-detail-service";
+import Preview from "./_components/preview";
+import Review from "./_components/review";
+import Agree from "./_components/agree";
+import Profile from "./_components/profile";
+import Content from "./_components/content";
+import Service from "./_components/service";
 
 
 export default function ServiceDetail() {

@@ -4,9 +4,9 @@ import Footer from "@/_components/footer";
 import Logo from "./logo";
 
 export const metadata = {
-  title: "Every Ai",
-  description: "ai 창작물 전문 플랫폼",
-};
+  title: 'EVERY AI',
+  description: 'Ai 공유 플랫폼',
+}
 
 export default function MainLayout({children}) {
   return (

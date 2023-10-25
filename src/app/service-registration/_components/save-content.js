@@ -1,6 +1,19 @@
 import InputField from "@/_components/input-field";
+import SelectField from "@/_components/select-field";
 
 export default function SaveContent() {
+
+    const categoryOptions = [
+        'IT',
+        '디자인',
+    ];
+
+    const subCategoryOptions = [
+        'lol',
+    'java',
+    ];
+        
+
     return (
         <>
             <div class="save-content">
@@ -14,19 +27,14 @@ export default function SaveContent() {
                 <div class="save-content-detail">
                     <div class="save-content-text">상위 카테고리</div>
                     <div class="save-content-input">
-                        <select name="category">
-                            {/* <!-- TODO 임시 카테고리 --> */}
-                            <option value="" disabled selected>선택</option>
-                        </select>
+                        <SelectField className={'category'} placeholder={"선택"} options={categoryOptions}/>
+                        
                     </div>
                 </div>
                 <div class="save-content-detail">
                     <div class="save-content-text">하위 카테고리</div>
                     <div class="save-content-input">
-                        <select name="sub-category">
-                            {/* <!-- TODO 임시 카테고리 --> */}
-                            <option value="" disabled selected>선택</option>
-                        </select>
+                    <SelectField className={'subCategory'} placeholder={"선택"} options={subCategoryOptions}/>
                     </div>
                 </div>
                 <div class="details-info">세부 정보</div>

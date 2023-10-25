@@ -8,15 +8,13 @@ export const metadata = {
   description: 'Ai 공유 플랫폼',
 }
 
-export default function MainLayout({children}) {
+export default function MainLayout({ children }) {
   return (
-    <html lang="kr">
-      <body>
-        <Logo />
-        <Header />
-        <div className="container">{children}</div>
-        <Footer />
-      </body>
-    </html>
+    <>
+      <Logo />
+      <Header />
+      <div className="container">{children}</div>
+      <Footer />
+    </>
   );
 }

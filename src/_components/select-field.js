@@ -1,4 +1,4 @@
-export default function SelectField({ className, placeholder, options }) {
+export default function SelectField({ className, placeholder, options}) {
   return (
     <select className={className} placeholder={placeholder}>
       <option value="" disabled selected>

@@ -1,3 +1,14 @@
+.join-container:not(.no-container) {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    max-width: 768px;
+    margin: 0 auto;
+}
 
 .join-success-text {
     margin: 30px 0px;

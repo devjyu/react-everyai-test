@@ -8,6 +8,18 @@
   }
 
 /* class */
+.join-container:not(.no-container) {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 .everyai {
     color: #3e9ce4;
 }

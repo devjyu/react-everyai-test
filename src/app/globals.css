@@ -189,7 +189,7 @@
   
   .user-infor {
     height: 50px;
-    padding: 5px 30px;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -199,17 +199,13 @@
     border-radius: 50px;
   }
   
-  .user-infor .nickname {
+  /* .user-infor .nickname {
     padding-left: 10px;
-  }
+  } */
   
   .alarm {
     display: flex;
     align-items: flex-start;
-  }
-  
-  .alarm div {
-    padding-left: 10px;
   }
   
   .alarm .alarm-state-image {
@@ -255,10 +251,10 @@
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     position: absolute;
-    top: -45px;
+    top: -50px;
     width: 0;
     border-radius: 50%;
-    left: -50px;
+    left: -55px;
   }
   
   .footer-left,
@@ -270,7 +266,6 @@
   .footer-center {
     display: inline-block;
     position: relative;
-    bottom: 20px;
   }
   
   .footer-left-element,
@@ -284,17 +279,70 @@
   }
   
   .footer-center-element {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     width: 200px;
     font-size: 15px;
   }
   
   .footer-center-element img {
-    z-index: 1;
     border-radius: 50%;
+  }
+
+  /* 프로필 배너 css */
+  .profile-image {
+    position: relative;
+    display: inline-block;
+  }
+
+  .profile-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  .profile-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .profile-dropdown ul li {
+    border-radius: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+
+  .profile-dropdown ul li:hover {
+    background-color: #3e9ce4;
+    color: #f2f2f2;
+  }
+
+  /* 알림 배너 css */
+  .notification-image {
+    position: relative;
+    display: inline-block;
+  }
+
+  .notification-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  .notification-type {
+    display: flex;
+    align-items: center;
+  }
+
+  .notification-type > div {
+    width: 100%;
   }
   
   /* width가 820px 이하일시 로고 안보이게 설정 */

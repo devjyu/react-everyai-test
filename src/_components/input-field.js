@@ -1,7 +1,7 @@
-export default function InputField({type, id, placeholder}) {
+export default function InputField({type, className, placeholder}) {
     return (
         <>
-            <input type={type} id={id} placeholder={placeholder} />
+            <input type={type} className={className} placeholder={placeholder} />
         </>
     );
 }

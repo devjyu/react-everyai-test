@@ -1,9 +1,9 @@
 import '@/app/join-success/join-success.css';
 import UserLayout from '@/_components/user-layout';
-import JoinSuccessLogo from './_components/join-success-logo';
-import JoinSuccessText from './_components/join-success-text';
-import JoinSuccessImage from './_components/join-success-image';
-import MainMovementButton from './_components/join-success-main-button';
+import JoinSuccessLogo from './_components/logo';
+import JoinSuccessText from './_components/text';
+import JoinSuccessImage from './_components/image';
+import MainMovementButton from './_components/main-movement-button';
 
 export default function JoinSuccess() {
     return(

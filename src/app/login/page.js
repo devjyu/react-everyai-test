@@ -1,8 +1,8 @@
 import '@/app/login/login.css';
 import UserLayout from '../../_components/user-layout';
-import LoginText from './_components/login-text';
-import LoginInput from './_components/login-input';
-import MovementButton from './_components/movement-button';
+import LoginText from './_components/text';
+import LoginInput from './_components/input';
+import MovementButton from './_components/button';
 import SocialLogin from './_components/social-login';
 
 

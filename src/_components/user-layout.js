@@ -12,8 +12,10 @@ export default function UserLayout({children}) {
       <body>
         <Logo />
         <div className="no-container">
-            <div className="inner-container">
-                {children}
+            <div className="join-container">
+              <div className="inner-container">
+                  {children}
+              </div>
             </div>
         </div>
       </body>

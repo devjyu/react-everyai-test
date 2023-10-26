@@ -1,25 +1,16 @@
 import Image from "next/image";
 import { useEffect, useState, useRef } from 'react';
-import { useRouter } from 'next/router';
 
-export default function AdvertisementBannerTest({ data }) {
+export default function AdvertisementBanner({ data }) {
     const [currentInedex, setCurrentIndex] = useState(0);
     const bannerSliderInnerRef = useRef(null);
     const bannerSliderWidth = useRef(0);
-    const bannerSliderClone = useRef(null); // Use useRef for sliderClone
-
-    const router = useRouter();
 
     useEffect(() => {
-        const bannerSliderWrap = document.querySelector('.banner-slider-wrap');
-        const bannerSliderImg = document.querySelector('.banner-slider_img'); //visible area
-        bannerSliderInnerRef.current = document.querySelector('.banner-slider_inner'); //moving area
-        const bannerSlider = document.querySelectorAll('.banner-slider'); //individual image
+        const bannerSliderImg = document.querySelector('.banner-slider_img');
+        bannerSliderInnerRef.current = document.querySelector('.banner-slider_inner');
 
-        bannerSliderWidth.current = bannerSliderImg.offsetWidth; //Get image width value
-        bannerSliderClone.current = bannerSliderInnerRef.current.firstElementChild.cloneNode(true); // Store the value in useRef
-        bannerSliderInnerRef.current.appendChild(bannerSliderClone.current); //Insert the first image last
-
+        bannerSliderWidth.current = bannerSliderImg.offsetWidth;
         const sliderEffect = () => {
             setCurrentIndex((prevIndex) => {
                 let nextIndex = prevIndex + 1;
@@ -28,8 +19,8 @@ export default function AdvertisementBannerTest({ data }) {
 
                 if (nextIndex === data.advertisementAdminBannerList.length) {
                     setTimeout(() => {
-                        bannerSliderInnerRef.current.style.transition = '0s'; //No animation
-                        bannerSliderInnerRef.current.style.transform = 'translateX(0px)'; //Initialize to 0px
+                        bannerSliderInnerRef.current.style.transition = '0s';
+                        bannerSliderInnerRef.current.style.transform = 'translateX(0px)';
                     }, 700);
 
                     nextIndex = 0;
@@ -39,33 +30,28 @@ export default function AdvertisementBannerTest({ data }) {
         };
 
         const interval = setInterval(sliderEffect, 4000);
-
         return () => clearInterval(interval);
     }, [data.advertisementAdminBannerList.length]);
     
     const handleImageClick = (index) => {
-        router.push(`/advertisementAdminBannerList/${index}`); // Navigate to the specific index page
+        window.location.href = `main/banner/${index}`;
     };
 
     return (
-        <>
-            <div class="banner-slider-wrap">
-                <div className="banner-slider_img">
-                <div className="banner-slider_inner">
-                    {data.advertisementAdminBannerList.map((thumbnail, index) => (
-                        <div className="banner-slider" key={index} onClick={() => handleImageClick(index)}>
-                            <Image
+        <div className="banner-slider-wrap">
+            <div className="banner-slider_inner">
+                {data.advertisementAdminBannerList.map((thumbnail, index) => (
+                    <div className="banner-slider" key={index} onClick={() => handleImageClick(index)}>
+                        <Image
                             src={thumbnail.thumbnailFileEntity.subFileList[0].url}
                             unoptimized={true}
                             alt="광고배너"
                             width={700}
                             height={100}
-                            />
-                        </div>
-                    ))}
-                </div>
-                </div>
+                        />
+                    </div>
+                ))}
             </div>
-        </>
+        </div>
     );
 }

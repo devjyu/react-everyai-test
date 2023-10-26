@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DropDown({isOpen, onClose}) {
+export default function ProfileDropDown({isOpen, onClose}) {
     return isOpen? (
         <div className="profile-dropdown">
             <ul>

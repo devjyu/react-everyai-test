@@ -379,11 +379,14 @@ footer {
 
   .notification-text {
     padding: 10px;
+    background-color: #fff;
   }
 
   .notification-info-text {
     font-size: 8px;
     padding: 5px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
   }
   
   /* width가 820px 이하일시 로고 안보이게 설정 */

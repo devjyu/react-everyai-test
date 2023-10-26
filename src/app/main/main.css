@@ -53,30 +53,26 @@
     font-size: 10px;
 }
 
-.main-banner-box {
-    width: 100%;
+.banner-slider-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 30px 0px;
-    margin-bottom: 30px;
+}
+.banner-slider_img{           /* 이미지 보이는 영역 */
+    overflow: hidden;
+}
+.banner-slider_inner{         /* 이미지를 감싸고 있는 부모 : 움직이는 부분 */
     display: flex;
-    justify-content: center;
-    /*가로 가운데 정렬 */
-    align-items: center;
+    width: 100%;   
+    /* 4000px --> 4800px  : 총이미지가 6개로 변경*/
 }
-
-.main-banner-box > img {
-    border: solid 1px skyblue;
-}
-
-/* .main-inner-banner-box {
-    height: 100px;
-    width: 700px;
-    border: solid 1px skyblue;
-    border-radius: 10px;
+.banner-slider {               
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-} */
+}
 
 .main-service-box {
     width: 100%;

@@ -1,6 +1,9 @@
 import Image from "next/image";
 
-export default function MainServiceList() {
+export default function MainServiceList({data}) {
+
+  const placeholderURL = 'https://via.placeholder.com/300';
+  
   return (
     <div className="main-service-box">
       <div className="main-inner-service-box">
@@ -12,22 +15,12 @@ export default function MainServiceList() {
         </div>
         <div className="main-recommand-box">
           <div className="main-inner-service">
-            <div className="main-recommand">
-              <Image src="" alt="" />
-              <div className="main-recommand-name">IT 프로그래밍</div>
+          {data.serviceList.map((service, index) => (
+            <div className="main-recommand" key={index}>
+              <Image className="main-recommand-img" src={placeholderURL } alt="placeholder" width={300} height={300}/>
+              <div className="main-recommand-name">{service.title}</div>
             </div>
-            <div className="main-recommand">
-              <Image src="" alt="" />
-              <div className="main-recommand-name">IT 프로그래밍</div>
-            </div>
-            <div className="main-recommand">
-              <Image src="" alt="" />
-              <div className="main-recommand-name">IT 프로그래밍</div>
-            </div>
-            <div className="main-recommand">
-              <Image src="" alt="" />
-              <div className="main-recommand-name">IT 프로그래밍</div>
-            </div>
+          ))}
           </div>
         </div>
       </div>

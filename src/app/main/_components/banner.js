@@ -1,4 +1,4 @@
-export default function MainAdvertisementBanner() {
+export default function AdvertisementBanner() {
   return (
     <div className="main-banner-box">
       <div className="main-inner-banner-box">

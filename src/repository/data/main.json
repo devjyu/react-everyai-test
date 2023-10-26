@@ -1,0 +1,159 @@
+{
+    "code": 0,
+    "message": "메인데이터를 성공적으로 가져왔습니다.",
+    "data": {
+        "user": {
+            "idx": 1,
+            "nickname": "test123",
+            "fileProfile": {
+                "idx": 1,
+                "subFileList": [
+                    {
+                        "idx": 1,
+                        "url": "URL"
+                    }
+                ]
+            }
+        },
+        "productCategoryList": [
+            {
+                "idx": 1,
+                "name": "IT·프로그래밍",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                },
+                "sequence": 1
+            },
+            {
+                "idx": 2,
+                "name": "디자인",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                },
+                "sequence": 2
+            },
+            {
+                "idx": 3,
+                "name": "영상·사진·음향",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                },
+                "sequence": 3
+            },
+            {
+                "idx": 4,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                },
+                "sequence": 4
+            }
+        ],
+        "advertisementAdminBannerList": [
+            {
+                "idx": 1,
+                "sequence": 1,
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            },
+            {
+                "idx": 2,
+                "sequence": 2,
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            }
+        ],
+        "serviceList": [
+            {
+                "idx": 5,
+                "title": "5번 서비스제목",
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            },
+            {
+                "idx": 4,
+                "title": "4번 서비스제목",
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            },
+            {
+                "idx": 2,
+                "title": "2번 서비스제목",
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            },
+            {
+                "idx": 3,
+                "title": "3번 서비스제목",
+                "thumbnailFileEntity": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "URL"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

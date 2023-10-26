@@ -1,6 +1,6 @@
 export default function Review() {
-    return (
-      <div className="content-detail_container review-container">
+  return (
+    <div className="content-detail_container review-container">
       <div className="content-detail_container-title review-title">
         <div className="review-title-text">리뷰</div>
         <div className="review-title-rating">
@@ -21,7 +21,7 @@ export default function Review() {
             포토리뷰 &#123;12,345&#125;건
           </div>
           <div className="review-content-photo_review-img">
-          &lt; 사진 사진 사진 사진 사진&gt;
+            &lt; 사진 사진 사진 사진 사진&gt;
           </div>
         </div>
         <div className="review-content-all_review">
@@ -51,7 +51,7 @@ export default function Review() {
               </div>
               <div className="review-content-all_review-reply-content">
                 <div className="review-content-all_review-reply-username">
-                &#123;올빼미 사진관&#125; | &#123;23.09.25&#125;
+                  &#123;올빼미 사진관&#125; | &#123;23.09.25&#125;
                 </div>
                 <div className="review-content-all_review-reply-detail">
                   <p>
@@ -75,5 +75,5 @@ export default function Review() {
         <button>전체보기</button>
       </div>
     </div>
-    );
+  );
 }

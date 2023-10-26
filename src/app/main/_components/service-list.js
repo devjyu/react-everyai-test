@@ -4,6 +4,9 @@ export default function MainServiceList({data}) {
 
   const placeholderURL = 'https://via.placeholder.com/300';
   
+  const handleImageClick = (index) => {
+    window.location.href = `service-detail/${index}`;
+};
   return (
     <div className="main-service-box">
       <div className="main-inner-service-box">
@@ -15,8 +18,8 @@ export default function MainServiceList({data}) {
         </div>
         <div className="main-recommand-box">
           <div className="main-inner-service">
-          {data.serviceList.map((service, index) => (
-            <div className="main-recommand" key={index}>
+          {data.serviceList.map((service) => (
+            <div className="main-recommand" key={service.idx} onClick={()=>handleImageClick(service.idx)}>
               <Image className="main-recommand-img" src={placeholderURL } alt="placeholder" width={300} height={300}/>
               <div className="main-recommand-name">{service.title}</div>
             </div>

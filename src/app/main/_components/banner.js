@@ -50,8 +50,8 @@ export default function AdvertisementBannerTest({ data }) {
             <div class="banner-slider-wrap">
                 <div className="banner-slider_img">
                     <div className="banner-slider_inner">
-                        {data.advertisementAdminBannerList.map((thumbnail, index) => (
-                            <div className="banner-slider" key={index} onClick={() => handleImageClick(index)}>
+                        {data.advertisementAdminBannerList.map((thumbnail) => (
+                            <div className="banner-slider" key={thumbnail.idx} onClick={() => handleImageClick(thumbnail.idx)}>
                                 <Image
                                 src={thumbnail.thumbnailFileEntity.subFileList[0].url}
                                 unoptimized={true}

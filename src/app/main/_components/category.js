@@ -26,36 +26,25 @@ export default function MainCategory({ data }) {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-
   };
+
+  const handleImageClick = (index) => {
+    window.location.href = `submain/${index}`;
+};
+
 
   return (
     <>
       
         <Slider {...settings}>
-        {data.productCategoryList.map((category, index) => (
-                  <div className="main-category" key={index}>
-                    <Image className="main-recommand-img" src={category.imageFile.subFileList[0].url} alt="placeholder" width={500} height={300} />
+        {data.productCategoryList.map((category) => (
+                  <div className="main-category" key={category.idx} onClick={()=>handleImageClick(category.idx)} >
+                    <Image className="main-recommand-img"  src={category.imageFile.subFileList[0].url} alt="placeholder" width={500} height={300} />
                     <div className="main-category-name">{category.name}</div>
                   </div>
                 ))}
         </Slider>
-      {/* <div className="main-inner-box">
-        <!-- 카테고리  -->
-        <!-- 사진수정 필요 -->
-        <div classNames="main-inner-center-box">
-
-          <div className="main-category-box">
-      
-              <Slider {...settings}>
-               
-              </Slider>
-
-
-
-          </div>
-        </div>
-      </div> */}
+     
     </>
   );
 }

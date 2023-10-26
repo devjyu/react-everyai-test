@@ -1,11 +1,14 @@
 import Image from "next/image";
 import { useEffect, useState, useRef } from 'react';
+import { useRouter } from 'next/router';
 
 export default function AdvertisementBannerTest({ data }) {
     const [currentInedex, setCurrentIndex] = useState(0);
     const bannerSliderInnerRef = useRef(null);
     const bannerSliderWidth = useRef(0);
     const bannerSliderClone = useRef(null); // Use useRef for sliderClone
+
+    const router = useRouter();
 
     useEffect(() => {
         const bannerSliderWrap = document.querySelector('.banner-slider-wrap');
@@ -39,21 +42,26 @@ export default function AdvertisementBannerTest({ data }) {
 
         return () => clearInterval(interval);
     }, [data.advertisementAdminBannerList.length]);
+    
+    const handleImageClick = (index) => {
+        router.push(`/advertisementAdminBannerList/${index}`); // Navigate to the specific index page
+    };
+
     return (
         <>
             <div class="banner-slider-wrap">
                 <div className="banner-slider_img">
                 <div className="banner-slider_inner">
                     {data.advertisementAdminBannerList.map((thumbnail, index) => (
-                    <div className="banner-slider" key={index}>
-                        <Image
-                        src={thumbnail.thumbnailFileEntity.subFileList[0].url}
-                        unoptimized={true}
-                        alt="광고배너"
-                        width={700}
-                        height={100}
-                        />
-                    </div>
+                        <div className="banner-slider" key={index} onClick={() => handleImageClick(index)}>
+                            <Image
+                            src={thumbnail.thumbnailFileEntity.subFileList[0].url}
+                            unoptimized={true}
+                            alt="광고배너"
+                            width={700}
+                            height={100}
+                            />
+                        </div>
                     ))}
                 </div>
                 </div>

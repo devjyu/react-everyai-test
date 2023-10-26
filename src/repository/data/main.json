@@ -24,7 +24,7 @@
                     "subFileList": [
                         {
                             "idx": 1,
-                            "url": "https://via.placeholder.com/300"
+                            "url": "https://via.placeholder.com/100"
                         }
                     ]
                 },
@@ -38,7 +38,7 @@
                     "subFileList": [
                         {
                             "idx": 1,
-                            "url": "https://via.placeholder.com/300"
+                            "url": "https://via.placeholder.com/200"
                         }
                     ]
                 },
@@ -66,12 +66,83 @@
                     "subFileList": [
                         {
                             "idx": 1,
-                            "url": "https://via.placeholder.com/300"
+                            "url": "https://via.placeholder.com/400"
                         }
                     ]
                 },
                 "sequence": 4
+            },
+            {
+                "idx": 5,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "https://via.placeholder.com/400"
+                        }
+                    ]
+                },
+                "sequence": 5
+            },
+            {
+                "idx": 6,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "https://via.placeholder.com/400"
+                        }
+                    ]
+                },
+                "sequence": 6
+            },
+            {
+                "idx": 7,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "https://via.placeholder.com/400"
+                        }
+                    ]
+                },
+                "sequence": 7
+            },
+            {
+                "idx": 8,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "https://via.placeholder.com/400"
+                        }
+                    ]
+                },
+                "sequence": 8
+            },
+            {
+                "idx": 9,
+                "name": "마켓팅",
+                "imageFile": {
+                    "idx": 1,
+                    "subFileList": [
+                        {
+                            "idx": 1,
+                            "url": "https://via.placeholder.com/400"
+                        }
+                    ]
+                },
+                "sequence": 9
             }
+            
         ],
         "advertisementAdminBannerList": [
             {

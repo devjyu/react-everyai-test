@@ -33,11 +33,13 @@
     row-gap: 5%;
 }
 
-.main-category {
-    display: grid;
-    grid-template-rows: 80% 20%;
 
+.main-category {
+    /* display: grid;
+    grid-template-rows: 80% 20%;
     border-radius: 10px;
+    gap: 50px; */
+    padding: 10px;
 }
 
 .main-category-img {
@@ -142,4 +144,8 @@
 .main-recommand-name {
     font-size: 15px;
     text-align: center;
+}
+/* 슬랙 */
+.slick-slide {
+    padding: 30px 100px 0 100px;
 }

@@ -22,7 +22,7 @@ export default function MainCategory({data}) {
         <div className="main-category-box">
           {data.productCategoryList.map((category, index) => (
             <div className="main-category" key={index}>
-              <Image className="main-recommand-img" src={placeholderURL } alt="placeholder" width={300} height={300}/>
+              <Image className="main-recommand-img" src={placeholderURL} alt="placeholder" width={500} height={300}/>
               <div className="main-category-name">{category.name}</div>
             </div>
           ))}

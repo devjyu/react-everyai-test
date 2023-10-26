@@ -1,3 +1,4 @@
+import { useState } from "react";
 import InputField from "@/_components/input-field";
 import SelectField from "@/_components/select-field";
 import CheckboxField from "@/_components/check-field";
@@ -30,12 +31,39 @@ export default function JoinForm() {
         '기타',
     ];
 
+    // const [email, setEmail] = useState('');
+    // const [exists, setExists] = useState(false);
+
+    // const EmailDuplication = async (event) => {
+    //     const value = event.target.value;
+    //     setEmail(value);
+    //     try {
+    //         const response = await fetch('/api/v1/auth/email-duplication', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json',
+    //             },
+    //             body: JSON.stringify({ email: value }),
+    //         });
+    //         const data = await response.text();
+    //         if (data === 'exists') {
+    //             setExists(true);
+    //             console.log(data);
+    //         } else {
+    //             setExists(false);
+    //         }
+    //     } catch (error) {
+    //         console.error(error);
+    //     }
+    // };
+
     return(
         <form>
             <div className="email">
                 <label className="name">이메일 <span className="star">*</span></label>
                 <div className="email-send">
-                    <InputField type="email" placeholder="이메일을 입력해주세요" />
+                    {/* <InputField type="email" value={email} onChange={EmailDuplication} placeholder="이메일을 입력해주세요" /> */}
+                    {/* {exists && <p>존재합니다.</p>} */}
                     <button className="email-send-button">인증번호 전송</button>
                 </div>
                 <div className="email-check">

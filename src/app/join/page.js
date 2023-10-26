@@ -1,3 +1,4 @@
+"use client";
 import '@/app/join/style.css';
 import UserLayout from '../../_components/user-layout';
 import JoinText from './_components/text';

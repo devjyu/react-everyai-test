@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DropDown({isOpen, onClose}) {
+export default function NotificationDropDown({isOpen, onClose}) {
     return isOpen? (
         <div className="notification-dropdown">
             <div className="notification-type">
@@ -10,5 +10,5 @@ export default function DropDown({isOpen, onClose}) {
             <div className="notification-text">알림이 없습니다.</div>
             <div className="notification-info-text">알림은 최대 30일까지이며, 최대 7일로 표현됩니다.</div>
         </div>
-    ) : null;
+    ) : onClose;
 }

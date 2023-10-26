@@ -156,7 +156,7 @@
   /* 부모 요소를 relative로 설정 */
 }
 
-.profile-image {
+.detail-profile-image {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -167,7 +167,7 @@
   /* 이미지를 절대 위치로 설정 */
   top: 20px;
   /* 원하는 수직 위치 설정 */
-  right: 20px;
+  left: 430px;
   /* 원하는 수평 위치 설정 */
   z-index: 0;
   /* 이미지를 텍스트 아래로 배치 */

@@ -1,17 +1,18 @@
-import Image from "next/image";
-import styles from '@/app/page.module.css';
+"use client"
+import MainData from "@/repository/data/main.json";
 import MainLayout from "@/_components/main-layout";
 import "@/app/main/main.css";
-import MainCategory from "./_components/main-category";
-import MainAdvertisementBanner from "./_components/advertisement-banner";
-import MainServiceList from "./_components/main-service-list";
+import AdvertisementBanner from "./_components/banner";
+import MainCategory from "./_components/category";
+import MainServiceList from "./_components/service-list";
 
 export default function Main() {
+  
   return (
     <MainLayout>
-      <MainCategory />
-      <MainAdvertisementBanner />
-      <MainServiceList />
+      <MainCategory{...MainData} />
+      <AdvertisementBanner />
+      <MainServiceList{...MainData} />
     </MainLayout>
   )
 }

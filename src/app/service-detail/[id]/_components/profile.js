@@ -1,8 +1,11 @@
+import Image from "next/image";
+
 export default function Profile() {
-    return (
+  const placeholderURL = 'https://via.placeholder.com/300';  
+  return (
      
       <div className="content-detail_container profile-container">
-        {/* <img src="img/detail/detail-preview.png" alt="프로필 이미지" class="profile-image" /> */}
+        <Image src={placeholderURL} alt="프로필 이미지" className="detail-profile-image" width={300} height={300}/>
         <div className="content-detail_container-title profile-title">
           <div className="profile-title-1">
             <div>LEVEL &#123;3&#125;</div>

@@ -42,7 +42,7 @@ export default function AdvertisementBannerTest({ data }) {
     }, [data.advertisementAdminBannerList.length]);
 
     const handleImageClick = (index) => {
-        window.location.href = `main/baner/${index}`;
+        window.location.href = `main/banner/${index}`;
     };
 
     return (

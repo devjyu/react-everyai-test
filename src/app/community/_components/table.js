@@ -1,10 +1,17 @@
+
 export default function CommunityTable({data}) {
 
     const sortedData = [...data.content];
     sortedData.sort((a, b) => {
-        if (a.user.nickname === 'admin') return -1;
-        if (b.user.nickname === 'admin') return 1;
-        return 0;
+        if (a.user.nickname === 'admin' && b.user.nickname !== 'admin') {
+            return -1;
+        } else if (a.user.nickname !== 'admin' && b.user.nickname === 'admin') {
+            return 1;
+        } else {
+            const dateA = new Date(a.createDate);
+            const dateB = new Date(b.createDate);
+            return dateB - dateA;
+        }
     });
 
     return(

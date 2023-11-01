@@ -1,3 +1,4 @@
+"use client"
 import '@/app/bookmark/style.css';
 import MainLayout from '@/_components/main-layout';
 import BookmarkTitle from './_components/title';

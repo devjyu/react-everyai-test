@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MyPageSuggest() {
     return(
@@ -15,7 +16,9 @@ export default function MyPageSuggest() {
                 </div>
                 <div className="mypage-suggest-profile">
                     <Image src="https://via.placeholder.com/300" alt="" width={30} height={30}/>
-                    <span>전문가 프로필 관리</span>
+                    <Link href={'/profile-management'}>
+                        <span>전문가 프로필 관리</span>
+                    </Link>
                 </div>
             </div>
             <hr className="hr-2" />

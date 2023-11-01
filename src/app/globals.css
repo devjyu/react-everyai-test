@@ -1,346 +1,340 @@
 /* 공통 css 입력 */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-*:focus {
-  outline: none #3e9ce4;
-}
+  *:focus {
+    outline: none #3e9ce4;
+  }
+  
+  header {
+    display: none;
+  }
+  
+  footer {
+    display: none;
+  }
+  
+  body {
+    margin: 0;
+    background: #f2f2f2;
+    font-size: 18px;
+    /* height: 100vh; */
+  }
 
-header {
-  display: none;
-}
+  div:focus {
+    outline: 2px solid #3e9ce4;
+  }
 
-footer {
-  display: none;
-}
+  a:focus {
+    outline: 2px solid #3e9ce4;
+  }
+  
+  hr {
+    border-color: #e2e2e2;
+  }
+  
+  .hr-2 {
+    border-color: #d9d9d9;
+  }
+  
+  a {
+    text-decoration-line: none;
+    /* 색 변경 필요 */
+    color: #adadad;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  button {
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: #2d2d2d;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e9ce4;
+    color: white;
+  }
 
-body {
-  margin: 0;
-  background: #f2f2f2;
-  font-size: 18px;
-  /* height: 100vh; */
-}
+  button:focus {
+    outline: 2px solid #3e9ce4;
+  }
 
-div:focus {
-  outline: 2px solid #3e9ce4;
-}
+  input {
+    border-radius: 5px;
+    border: solid 1px #adadad;
+  }
 
-a:focus {
-  outline: 2px solid #3e9ce4;
-}
+  select {
+    border: solid 1px #adadad;
+    border-radius: 5px;
+  }
 
-hr {
-  border-color: #e2e2e2;
-}
+  input[type="checkbox"]:focus, input[type="email"]:focus, input[type="text"]:focus  {
+    outline: solid 1px #3e9ce4;
+  }
 
-.hr-2 {
-  border-color: #d9d9d9;
-}
+  select:focus {
+    outline: solid 1px #3e9ce4;
+  }
+  
+  /* header css */
+  header {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* footer */
+  footer {
+    display: block;
+    /* 로그인 페이지에는 안보이게 설정 */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6rem;
+    width: 100%;
+    height: 56px;
+    background-color: #e6e6e6;
+  }
+  
+  .title {
+    font-size: 25px;
+    padding: 5% 0 3% 3%;
+    font-weight: bold;
+  }
+  
+  .container {
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    /* 컨테이너 안에 컨텐츠 들어가면 삭제 필요 */
+    min-height: 800px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 30px 45px 50px 45px;
+    /*margin-bottom: 150px;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+  }
+  
+  .no-container {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
 
-a {
-  text-decoration-line: none;
-  /* 색 변경 필요 */
-  color: #adadad;
-}
+  .inner-container {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+    font-weight: bold;
+  }
+  
+  .search {
+    background-color: #d6e3ed;
+    border-radius: 50px;
+    padding: 5px 20px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+  }
+  
+  .search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #d6e3ed;
+  }
+  
+  .search input[type="text"]:focus {
+    outline: none;
+  }
+  
+  .search .search-button {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: #d6e3ed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
 
-img {
-  border-radius: 10px;
-}
-
-button {
-  border-radius: 10px;
-  border: none;
-  font-size: 15px;
-  color: #2d2d2d;
-  border-radius: 5px;
-  background-color: #e5e5e5;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #3e9ce4;
-  color: white;
-}
-
-button:focus {
-  outline: 2px solid #3e9ce4;
-}
-
-input {
-  border-radius: 5px;
-  border: solid 1px #adadad;
-}
-
-select {
-  border: solid 1px #adadad;
-  border-radius: 5px;
-}
-
-input[type="checkbox"]:focus,
-input[type="email"]:focus,
-input[type="text"]:focus {
-  outline: solid 1px #3e9ce4;
-}
-
-select:focus {
-  outline: solid 1px #3e9ce4;
-}
-
-input[type=file]::file-selector-button {
-  width: 150px;
-  height: 30px;
-  background: #fff;
-  border: 1px solid rgb(77,77,77);
-  border-radius: 5px;
-  cursor: pointer;
-
-}
-input[type=file]::file-selector-button:hover{
-  background: #3e9ce4;
-  color: white;
-}
-
-/* header css */
-header {
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f2f2f2;
-}
-
-/* footer */
-footer {
-  display: block;
-  /* 로그인 페이지에는 안보이게 설정 */
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 6rem;
-  width: 100%;
-  height: 56px;
-  background-color: #e6e6e6;
-}
-
-.title {
-  font-size: 25px;
-  padding: 5% 0 3% 3%;
-  font-weight: bold;
-}
-
-.container {
-  background-color: white;
-  /* border: 1px solid black; */
-  width: 100%;
-  height: 100%;
-  /* 컨테이너 안에 컨텐츠 들어가면 삭제 필요 */
-  min-height: 800px;
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 30px 45px 50px 45px;
-  /*margin-bottom: 150px;*/
-  margin-top: 80px;
-  margin-bottom: 80px;
-  border-radius: 20px;
-}
-
-.no-container {
-  background-color: white;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 800px;
-  max-width: 768px;
-  margin: 0 auto;
-}
-
-.inner-container {
-  max-width: 350px;
-  width: 100%;
-  margin: auto;
-  font-weight: bold;
-}
-
-.search {
-  background-color: #d6e3ed;
-  border-radius: 50px;
-  padding: 5px 20px;
-  width: 500px;
-  height: 50px;
-  display: flex;
-}
-
-.search input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  background-color: #d6e3ed;
-}
-
-.search input[type="text"]:focus {
-  outline: none;
-}
-
-.search .search-button {
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
-  background-color: #d6e3ed;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-
-.user-infor {
-  height: 50px;
-  padding: 5px 20px;
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-}
-
-.user-infor img {
-  border-radius: 50px;
-}
-
-/* .user-infor .nickname {
+  .dropdown-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-infor {
+    height: 50px;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .user-infor img {
+    border-radius: 50px;
+  }
+  
+  /* .user-infor .nickname {
     padding-left: 10px;
   } */
+  
+  .alarm {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .alarm .alarm-state-image {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 5px 5px;
+  }
+  
+  /* logo */
+  .ai-logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+  }
+  
+  .ai-logo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* footer */
+  footer {
+    display: block;
+    /* 로그인 페이지에는 안보이게 설정 */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.alarm {
-  display: flex;
-  align-items: flex-start;
-}
+  .footer-center-circle {
+    border-top: 150px solid #e6e6e6;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    position: absolute;
+    top: -10px;
+    width: 0;
+    border-radius: 50%;
+    left: -60px;
+  }
+  
+  .footer-left,
+  .footer-right {
+    display: flex;
+    width: 300px;
+  }
+  
+  .footer-center {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .footer-left-element,
+  .footer-right-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .footer-center-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+  }
+  
+  .footer-center-element img {
+    z-index: 1;
+    border-radius: 50%;
+  }
 
-.alarm .alarm-state-image {
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  border-radius: 50%;
-  margin: 5px 5px;
-}
+  /* 프로필 배너 css */
+  .profile-image {
+    position: relative;
+    display: inline-block;
+  }
 
-/* logo */
-.ai-logo {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 2;
-}
+  .profile-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
 
-.ai-logo img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
+  .profile-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
-/* footer */
-footer {
-  display: block;
-  /* 로그인 페이지에는 안보이게 설정 */
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 77px;
-  background-color: #e6e6e6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .profile-dropdown ul li {
+    border-radius: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
 
-.footer-center-circle {
-  border-top: 120px solid #e6e6e6;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
-  position: absolute;
-  top: -50px;
-  width: 0;
-  border-radius: 50%;
-  left: -55px;
-}
+  .profile-dropdown ul li:hover {
+    background-color: #3e9ce4;
+    color: #f2f2f2;
+  }
 
-.footer-left,
-.footer-right {
-  display: flex;
-  width: 300px;
-}
-
-.footer-center {
-  display: inline-block;
-  position: relative;
-}
-
-.footer-left-element,
-.footer-right-element {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  font-size: 15px;
-}
-
-.footer-center-element {
-  text-align: center;
-  width: 200px;
-  font-size: 15px;
-}
-
-.footer-center-element img {
-  border-radius: 50%;
-}
-
-/* 프로필 배너 css */
-.profile-image {
-  position: relative;
-  display: inline-block;
-}
-
-.profile-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #f2f2f2;
-  min-width: 115px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-}
-
-.profile-dropdown ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.profile-dropdown ul li {
-  border-radius: 10px;
-  padding: 12px 16px;
-  cursor: pointer;
-}
-
-.profile-dropdown ul li:hover {
-  background-color: #3e9ce4;
-  color: #f2f2f2;
-}
-
-/* 알림 배너 css */
-.notification-image {
-  position: relative;
-  display: inline-block;
-}
+  /* 알림 배너 css */
+  .notification-image {
+    position: relative;
+    display: inline-block;
+  }
 
   .notification-dropdown {
     position: absolute;

@@ -66,10 +66,10 @@ export default function Dropdown() {
         <div className="alarm">
             <div className="notification-image">
             <Image
-                src=""
+                src={'/notification.png'}
                 alt="알림"
-                width={30}
-                height={50}
+                width={40}
+                height={40}
                 onClick={nofificationOpenDropDown}
                 ref={notificationRef}
             />

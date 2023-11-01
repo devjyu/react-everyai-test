@@ -1,5 +1,5 @@
 import '@/app/globals.css';
-import '@/app/submain/submain.css';
+import '@/app/submain/[idx]/submain.css'
 
 import MainLayout from "@/_components/main-layout";
 import Title from "./_components/title";

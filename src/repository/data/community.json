@@ -1,0 +1,88 @@
+{
+    "code": 0,
+    "message": "데이터를 성공적으로 가져왔습니다.",
+    "data": {
+        "content": [
+            {
+                "idx": 1,
+                "title": "첫번째글",
+                "createDate": "2023-10-30",
+                "user": {
+                    "idx": 1,
+                    "nickname": "test123"
+                },
+                "viewCount": 10,
+                "recommendCount": 0
+            },
+            {
+                "idx": 2,
+                "title": "두번째글",
+                "createDate": "2023-10-30",
+                "user": {
+                    "idx": 1,
+                    "nickname": "test123"
+                },
+                "viewCount": 2000,
+                "recommendCount": 0
+            },
+            {
+                "idx": 3,
+                "title": "세번째글",
+                "createDate": "2023-10-30",
+                "user": {
+                    "idx": 3,
+                    "nickname": "zzzz"
+                },
+                "viewCount": 30,
+                "recommendCount": 0
+            },
+            {
+                "idx": 4,
+                "title": "네번째글",
+                "createDate": "2023-10-30",
+                "user": {
+                    "idx": 1,
+                    "nickname": "test123"
+                },
+                "viewCount": 4000,
+                "recommendCount": 0
+            },
+            {
+                "idx": 5,
+                "title": "관리자글",
+                "createDate": "2023-10-30",
+                "user": {
+                    "idx": 2,
+                    "nickname": "admin"
+                },
+                "viewCount": 5000,
+                "recommendCount": 1
+            }
+        ],
+        "pageable": {
+            "pageNumber": 0,
+            "pageSize": 8,
+            "sort": {
+                "empty": true,
+                "sorted": false,
+                "unsorted": true
+            },
+            "offset": 0,
+            "unpaged": false,
+            "paged": true
+        },
+        "last": true,
+        "totalPages": 1,
+        "totalElements": 5,
+        "size": 8,
+        "number": 0,
+        "sort": {
+            "empty": true,
+            "sorted": false,
+            "unsorted": true
+        },
+        "first": true,
+        "numberOfElements": 5,
+        "empty": false
+    }
+}

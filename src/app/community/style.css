@@ -1,0 +1,93 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+tbody {
+    cursor: pointer;
+}
+
+td {
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:not(:first-child):hover {
+    background-color: #f5f5f5;
+    /* 첫 번째 행을 제외한 다른 행에 hover 효과 적용 */
+}
+
+/* class */
+.inner-container-body-filter-btn {
+    display: flex;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+.inner-container-body-filter-btn > button {
+    width: 100%;
+}
+
+.inner-container-body-table {
+    border: 1px solid #adadad;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.inner-container-body-write-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.inner-container-body-write-btn>button {
+    padding: 5px 10px;
+}
+
+.inner-container-body-search {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.inner-container-body-search>div {
+    border: 1px solid #adadad;
+    display: flex;
+}
+
+.inner-container-body-search>div>select {
+    border: none;
+}
+
+.inner-container-body-search>div>input {
+    border: none;
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.inner-container-body-search>div>button {
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.inner-container-body-paging {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+.inner-container-body-paging>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.inner-container-body-paging>ul>a {
+    padding: 3px;
+    color: black;
+}

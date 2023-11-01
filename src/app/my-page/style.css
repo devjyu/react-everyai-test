@@ -1,0 +1,213 @@
+.mypage-container::-webkit-scrollbar {
+    display: none;
+}
+
+/*유저정보*/
+.mypage-user {
+    display: flex;
+    padding: 35px;
+    align-items: center;
+}
+
+.mypage-user > img {
+    border-radius: 50px;
+}
+
+.mypage-user-info {
+    margin-left: 30px;
+}
+
+.level-and-title {
+    display: flex;
+}
+
+.mypage-user-info-title {
+    display: inline;
+    background-color: #3e9ce4;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mypage-user-info-level {
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.mypage-user-info-text-name {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 5px 0px;
+}
+
+.transform-button {
+    padding: 0px 10px;
+}
+
+/*보낸제안*/
+.mypage-suggest {
+    padding: 0px 35px 35px 35px;
+}
+
+.mypage-suggest-title, .mypage-sell-info-big-title {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.mypage-suggest-title-1, .sell-info {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mypage-suggest-title-2, .all-sell-info {
+    font-size: 12px;
+    color: #adadad;
+}
+
+.mypage-suggest-content {
+    padding: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.mypage-suggest-content > div {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #adadad;
+}
+
+.mypage-suggest-content > button {
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #3e9ce4;
+    font-weight: 700;
+    color: white;
+}
+
+.mypage-suggest-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mypage-suggest-profile > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.mypage-suggest-profile > span {
+    font-weight: 600;
+    font-size: 18px;
+    color: #adadad;
+}
+
+.hr-2 {
+    border: solid 1px #e1e1e1;
+}
+
+/*판매 정보*/
+
+.mypage-sell-info {
+    padding: 35px;
+}
+
+.mypage-sell-info-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.mypage-sell-info-count-number {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3e9ce4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage-sell-info-count-number>div {
+    display: inline;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.mypage-sell-info-count-line {
+    font: size 30px;
+    font-weight: 600;
+    color: #3e9ce4;
+}
+
+.mypage-sell-info-count-title {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px 70px;
+    margin-bottom: 20px;
+}
+
+.mypage-sell-info-count-title > div {
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.mypage-sell-issue {
+    display: flex;
+    background-color: #d6e3ed;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.mypage-sell-issue-delay {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+}
+
+.mypage-sell-issue-delay > div {
+    margin: 0px 5px;
+}
+
+/* 서비스 */
+.mypage-service {
+    padding: 0px 35px;
+}
+
+.mypage-service-list {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 10px;
+}
+
+.mypage-service-list img {
+    border-radius: 50px;
+}
+
+.mypage-service-list > div {
+    margin-left: 10px;
+}

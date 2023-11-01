@@ -1,0 +1,78 @@
+.ad-type {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.ad-type-inner-box {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border: 2px solid #adadad;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ad-type-inner-box-details1 {
+    width: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ad-type-inner-box-details2 {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    color: #adadad;
+}
+
+.ad-type-inner-box-details3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-select {
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.ad-period-setting, .service-select {
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.ad-period-setting-select, .service-title-select- {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    /* 글자 크기 설정 */
+    color: #adadad;
+    /* 글자 색상 설정 (예: 빨간색) */
+    border-radius: 5px;
+}
+
+.ad-detail-warning {
+    margin-top: 30px;
+    color: #adadad;
+    font-size: 12px;
+}
+
+button {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
+
+.ad-payment-button {
+    display: flex;
+    justify-content: center;
+}

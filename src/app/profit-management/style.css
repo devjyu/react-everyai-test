@@ -1,0 +1,192 @@
+/* class */
+.hr {
+    border-color: #fafafa;
+    margin-top: 30px;
+}
+.inner-container-body > div {
+    margin-top: 30px;
+}
+
+/* 수익금, 출금 정보 */
+.profit-status-top {
+    text-align: center;
+}
+
+.profit-text, .log-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.top-price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profit-status-middle {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profit-status-middle>div {
+    width: 40%;
+    min-width: 100px;
+    text-align: center;
+    background-color: #D2E0F4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.middle-price, .order-graph-title, .profit-log-text, .profit-log-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profit-status-bottom {
+    margin-top: 30px;
+    padding: 0px 45px;
+}
+
+.profit-stauts-bottom-account-body {
+    display: flex;
+    width: 100%;
+    min-width: 200px;
+    height: 40px;
+    background-color: #D2E0F4;
+    border-radius: 50px;
+    position: relative;
+    justify-content: center;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.profit-stauts-bottom-account-body-title {
+    border-radius: 20px;
+    width: 20%;
+    min-width: 100px;
+    height: 100%;
+    color: white;
+    background-color: #3e9ce4;
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 주문 그래프 */
+.order-graph {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.order-graph-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-graph-header-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order-graph-header-right>button {
+    margin-left: 10px;
+    width: 50%;
+    height: 30px;
+}
+
+.order-graph-header-right>button:active {
+    background-color: #3e9ce4;
+}
+
+.order-graph-body {
+    margin-top: 20px;
+}
+
+.profit-log {
+    margin-top: 30px;
+}
+
+/* 수익금 내역, 출금 내역 */
+.profit-log-header {
+    height: 50px;
+    display: flex;
+}
+
+.profit-log-header>button {
+    border-radius: 0;
+    border-bottom: 1px solid #adadad;
+    width: 50%;
+}
+
+.profit-log-header>button:active {
+    border-bottom: 2px solid #3e9ce4;
+}
+
+.profit-log-body {
+    margin: 20px;
+}
+
+.profit-log-body-logs {
+    margin-top: 20px;
+}
+
+.profit-log-body-logs-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time,
+.profit {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.profit-log-body-logs-bottom {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profit-log-body-logs-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.profit-log-body-logs-bottom-left>.nickname {
+    background-color: #3e9ce4;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.real-price {
+    font-weight: bold;
+}
+
+.profit-log-body-logs-bottom-right>.status {
+    background-color: #D2E0F4;
+    padding: 2px 20px;
+    border-radius: 20px;
+    color: #3e9ce4;
+    font-weight: bold;
+}
+
+.profit-log-body-withdraw-btn>button {
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}

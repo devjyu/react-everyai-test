@@ -7,8 +7,8 @@ export default function VacationSettingSelect() {
         '개인 사정으로 잠시 판매를 중단합니다.'
     ];
 
-    const periodOptions = ['1주', '2주', '3주', '4주', '5주', '6주', '7주', '8주'];
-    
+    const periodOptions = ['1일', '2일', '3일', '4일', '5일', '6일', '1주', '2주', '3주', '한달'];
+
     return(
         <div className="vacation-setting-inner-box">
             <div>

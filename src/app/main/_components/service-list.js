@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function MainServiceList({data}) {
 
   const placeholderURL = 'https://via.placeholder.com/300';
-  
   const handleImageClick = (index) => {
     window.location.href = `service-detail/${index}`;
 };

@@ -13,7 +13,7 @@ export default function Header() {
           className="search-field"
         />
         <button type="button" className="search-button">
-          <Image src="" alt="검색" width={30} height={30} />
+          <Image src={'/serach.png'} alt="검색" width={30} height={30} />
         </button>
       </div>
       <Dropdown />

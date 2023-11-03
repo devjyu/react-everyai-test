@@ -52,7 +52,7 @@ export default function Dropdown() {
         <div className="user-infor">
             <div className="profile-image">
             <Image
-                src=""
+                src={'/user.png'}
                 alt="프로필"
                 width={40}
                 height={40}

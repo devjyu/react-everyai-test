@@ -3,7 +3,7 @@ import Image from "next/image";
 import InputField from "./input-field";
 import Dropdown from "./dropdown/dropdown";
 
-export default function Header() {
+export default function Header({data}) {
   return (
     <header>
       <div className="search">
@@ -13,10 +13,11 @@ export default function Header() {
           className="search-field"
         />
         <button type="button" className="search-button">
-          <Image src={'/serach.png'} alt="검색" width={30} height={30} />
+          <Image src={"/search.png"} alt="검색" width={30} height={30} />
         </button>
       </div>
-      <Dropdown />
+      <Dropdown data={data} />
     </header>
   );
 }
+

@@ -87,3 +87,7 @@ select {
   width: 100%;
   padding: 20px 0px;
 }
+.save-content>span{
+  font-size: 12px;
+  padding-left: 200px;
+}

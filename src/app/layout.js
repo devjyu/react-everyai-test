@@ -1,12 +1,14 @@
+import "./globals.css";
+
 export const metadata = {
-  title: 'EVERY AI',
-  description: 'Ai 공유 플랫폼',
-}
+  title: "Every Ai",
+  description: "ai 창작물 전문 플랫폼",
+};
 
 export default function RootLayout({ children }) {
- return (
+  return (
     <html lang="kr">
       <body>{children}</body>
     </html>
-  )
+  );
 }

@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "advertisementList": [
+      {
+        "expertIdx": 1,
+        "type": "example",
+        "isEnd": false,
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-15",
+        "serviceTitle": "Example Service 1",
+        "price": 100
+      },
+      {
+        "expertIdx": 2,
+        "type": "sample",
+        "isEnd": true,
+        "startDate": "2023-10-25",
+        "endDate": "2023-11-05",
+        "serviceTitle": "Sample Service 2",
+        "price": 150
+      },
+      {
+        "expertIdx": 3,
+        "type": "test",
+        "isEnd": false,
+        "startDate": "2023-11-05",
+        "endDate": "2023-11-20",
+        "serviceTitle": "Test Service 3",
+        "price": 200
+      }
+    ]
+  }
+}

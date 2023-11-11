@@ -1,0 +1,32 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "serviceList": [
+      {
+        "idx": 1,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "Amazing Product 1",
+        "status": "Available",
+        "averageReviewRating": 4.5,
+        "reviewCount": 120
+      },
+      {
+        "idx": 2,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "Fantastic Item 2",
+        "status": "Out of Stock",
+        "averageReviewRating": 4.0,
+        "reviewCount": 85
+      },
+      {
+        "idx": 3,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "Superb Item 3",
+        "status": "Available",
+        "averageReviewRating": 4.8,
+        "reviewCount": 200
+      }
+    ]
+  }
+}

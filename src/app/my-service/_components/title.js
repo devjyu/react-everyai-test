@@ -1,4 +1,4 @@
-export default function Top() {
+export default function Title() {
     return (
         <>      
         {/* <!-- 내부 컨테이너 헤더 --> */}

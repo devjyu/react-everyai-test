@@ -1,0 +1,22 @@
+{
+    "code": 0,
+    "message": "메인데이터를 성공적으로 가져왔습니다.",
+    "data": {
+        "advertisement": {
+            "idx": 1,
+            "data": "광고1데이터",
+            "title": "광고1 제목",
+            "content": "광고1 컨텐츠",
+            "thumbnailFile": {
+                "idx": 1,
+                "subFileList": [
+                    {
+                        "idx": 1,
+                        "url": "URL"
+                    }
+                ]
+            },
+            "createDate": "2023-10-30"
+        }
+    }
+}

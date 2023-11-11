@@ -2,9 +2,9 @@ import "@/app/globals.css";
 import Logo from "./logo";
 
 export const metadata = {
-  title: 'EVERY AI',
-  description: 'Ai 공유 플랫폼',
-}
+  title: "Every Ai",
+  description: "ai 창작물 전문 플랫폼",
+};
 
 export default function UserLayout({children}) {
   return (
@@ -12,10 +12,8 @@ export default function UserLayout({children}) {
       <body>
         <Logo />
         <div className="no-container">
-            <div className="join-container">
-              <div className="inner-container">
-                  {children}
-              </div>
+            <div className="inner-container">
+                {children}
             </div>
         </div>
       </body>

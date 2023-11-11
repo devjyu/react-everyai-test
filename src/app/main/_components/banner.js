@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState, useRef } from 'react';
 import Link from "next/link";
+import MainData from "@/repository/data/main.json";
 
 export default function AdvertisementBannerTest({ data }) {
     const [currentInedex, setCurrentIndex] = useState(0);
@@ -41,24 +42,22 @@ export default function AdvertisementBannerTest({ data }) {
         return () => clearInterval(interval);
     }, [data.advertisementAdminBannerList.length]);
 
-    const handleImageClick = (index) => {
-        window.location.href = `main/banner/${index}`;
-    };
-
     return (
         <>
             <div class="banner-slider-wrap">
                 <div className="banner-slider_img">
                     <div className="banner-slider_inner">
                         {data.advertisementAdminBannerList.map((thumbnail) => (
-                            <div className="banner-slider" key={thumbnail.idx} onClick={() => handleImageClick(thumbnail.idx)}>
-                                <Image
-                                src={thumbnail.thumbnailFileEntity.subFileList[0].url}
-                                unoptimized={true}
-                                alt="광고배너"
-                                width={700}
-                                height={100}
-                                />
+                            <div className="banner-slider" key={thumbnail.idx}>
+                                <Link href={`advertisement-banner/${thumbnail.idx}`}>
+                                    <Image
+                                    src={thumbnail.thumbnailFileEntity.subFileList[0].url}
+                                    unoptimized={true}
+                                    alt="광고배너"
+                                    width={700}
+                                    height={100}
+                                    />
+                                </Link>
                             </div>
                         ))}
                     </div>

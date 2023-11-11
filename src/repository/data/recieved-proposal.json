@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "message": "메인데이터를 성공적으로 가져왔습니다.",
+    "data": {
+    "projectProposalList": [
+        {
+            "proposalIdx": 1,
+            "profileUrl": "https://via.placeholder.com/300",
+            "expertNickname": "CreativeMind",
+            "expertLevel": "1",
+            "description": "I have extensive experience in this field and can deliver high-quality results.",
+            "price": 4000,
+            "workDay": 25,
+            "status": "Pending",
+            "projectName" : "love"
+        },
+        {
+            "proposalIdx": 2,
+            "profileUrl": "https://via.placeholder.com/300",
+            "expertNickname": "TechWhiz",
+            "expertLevel": "3",
+            "description": "My technical skills ensure efficient and effective project completion.",
+            "price": 6000,
+            "workDay": 35,
+            "status": "Accepted",
+            "projectName" : "love"
+        },
+        {
+            "proposalIdx": 3,
+            "profileUrl": "https://via.placeholder.com/300",
+            "expertNickname": "MarketingPro",
+            "expertLevel": "master",
+            "description": "I offer innovative marketing strategies that drive tangible results.",
+            "price": 3500,
+            "workDay": 30,
+            "status": "Rejected",
+            "projectName" : "hope"
+        }
+    ]
+}
+}

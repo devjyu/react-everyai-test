@@ -8,8 +8,8 @@ export default function SelectFields({ className, placeholder, options, value, o
               {placeholder}
           </option>
           {options.map((option) => (
-              <option key={option.idx} value={option.idx}>
-                  {option.name}
+              <option key={option} value={option}>
+                  {option}
               </option>
           ))}
       </select>

@@ -138,3 +138,7 @@ input {
   .error {
     color: red;
   }
+
+.timer {
+    font-size: 9px;
+}

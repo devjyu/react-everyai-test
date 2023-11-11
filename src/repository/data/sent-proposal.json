@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "projectList": [
+      {
+        "idx": 1,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "dDay": 12,
+        "title": "Developing a New Mobile Application",
+        "workDay": 30,
+        "price": 5000,
+        "status": "Ongoing"
+      },
+      {
+        "idx": 2,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "dDay": 5,
+        "title": "Designing a Modern Website",
+        "workDay": 20,
+        "price": 3000,
+        "status": "Pending"
+      },
+      {
+        "idx": 3,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "dDay": 30,
+        "title": "Creating a Marketing Campaign",
+        "workDay": 45,
+        "price": 8000,
+        "status": "Completed"
+      }
+    ]
+  }
+}

@@ -1,7 +1,9 @@
-export default function InputField({type, id, placeholder, name, value, onChange}) {
+
+export default function InputField({type, id, placeholder, name, value, onChange, disabled, onKeyDown}) {
+  
     return (
         <>
-            <input type={type} id={id} placeholder={placeholder} name={name} value={value} onChange={onChange}/>
+            <input type={type} id={id} placeholder={placeholder} value={value} onChange={onChange} name={name} disabled={disabled} onKeyDown={onKeyDown}/>
         </>
     );
 }

@@ -1,0 +1,50 @@
+input{
+    height: 30px;
+}
+/* class */
+
+.my-ad-manage-container {
+    padding: 0% 10%;
+}
+
+.my-ad-manage-select-term {
+    margin-top: 15px;
+}
+
+.my-ad-manage-content {
+    border: solid 1px #adadad   ;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.my-ad-manage-type{
+    display: flex;
+    column-gap: 10px;
+}
+
+.my-ad-manage-type-2 {
+    background-color: #adadad;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 7px;
+}
+
+.my-ad-manage-ad_term{
+    font-size: 15px;
+}
+
+.my-ad-manage-price {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* id */
+/* #datepicker{
+    height: 30px;
+}
+
+#datepicker2{
+    height: 30px;
+} */

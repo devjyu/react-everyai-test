@@ -1,0 +1,97 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "userstatus": "expert",
+    "expertName": "Jhon",
+    "serviceIdx": 1,
+    "serviceThumbnailUrl": "https://via.placeholder.com/500",
+    "paymentDay": "2023-10-25",
+    "serviceTitle": "Sample Service Title",
+    "expertProfileUrl": "https://via.placeholder.com/300",
+    "workDay": "2023-10-26",
+    "paymentPrice": 45000,
+    "worklogList": [
+      {
+        "worklogIdx": 1,
+        "status": "PROCESS",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-26",
+        "createDat": "2023-10-26"
+      },
+      {
+        "worklogIdx": 2,
+        "status": "SEND_DELAY",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-27",
+        "createDat": "2023-10-27"
+      },
+      {
+        "worklogIdx": 3,
+        "status": "SEND",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-27",
+        "createDat": "2023-10-27"
+      },
+      {
+        "worklogIdx": 4,
+        "status": "SEND_DELAY",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-28",
+        "createDat": "2023-10-28"
+      },
+      {
+        "worklogIdx": 5,
+        "status": "DELAY_REQUEST",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-29",
+        "createDat": "2023-10-29"
+      },
+      {
+        "worklogIdx": 6,
+        "status": "UPDATE_REQUEST",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-29",
+        "createDat": "2023-10-29"
+      },
+      {
+        "worklogIdx": 6,
+        "status": "DEAL_CANCEL_CLIENT_REQUEST",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-29",
+        "createDat": "2023-10-29"
+      },
+       {
+        "worklogIdx": 6,
+        "status": "DEAL_CANCEL_EXPERT_REQUEST",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-29",
+        "createDat": "2023-10-29"
+      },
+      {
+        "worklogIdx": 6,
+        "status": "DEAL_CANCEL",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-29",
+        "createDat": "2023-10-29"
+      },
+      {
+        "worklogIdx": 7,
+        "status": "COMPLETE",
+        "fileUrl": "https://via.placeholder.com/300",
+        "jsonData": {},
+        "workDay": "2023-10-30",
+        "createDat": "2023-10-30"
+      }
+    ]
+  }
+}

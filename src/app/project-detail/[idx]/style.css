@@ -1,0 +1,76 @@
+/* class */
+.font-20-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.font-25-bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.font-skyblue {
+  color: #3e9ce4;
+}
+
+.font-blue {
+  color: blue;
+}
+
+.inner-container {
+  padding: 0% 10%;
+}
+
+.inner-container-body-profile-image {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.inner-container-body-profile-image>img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.inner-container-body-profile-image>div {
+  margin-left: 10px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.info-title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.suggest-button {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 50px;
+}
+.suggest-button:disabled {
+  /* 비활성화된 버튼에 대한 스타일 설정 */
+  pointer-events: none; /* hover 이벤트 비활성화 */
+  opacity: 0.6; /* 투명도 조정 등 비활성화된 상태를 시각적으로 표현 */
+}
+
+.project-explanation{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.background-f1{
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+}
+.inner-container-body-price>div{
+  font-size: 30px;
+  font-weight: bold;
+}
+.inner-container-body-price{
+  margin-top: 50px;
+}

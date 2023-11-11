@@ -28,7 +28,7 @@
             {
                 "idx": 3,
                 "title": "세번째글",
-                "createDate": "2023-09-30",
+                "createDate": "2023-10-31",
                 "user": {
                     "idx": 3,
                     "nickname": "zzzz"
@@ -39,7 +39,7 @@
             {
                 "idx": 4,
                 "title": "네번째글",
-                "createDate": "2023-10-31",
+                "createDate": "2023-09-30",
                 "user": {
                     "idx": 1,
                     "nickname": "test123"

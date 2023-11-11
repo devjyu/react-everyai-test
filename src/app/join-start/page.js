@@ -1,3 +1,4 @@
+"use client"
 import '@/app/join-start/join-start.css';
 import UserLayout from "@/_components/user-layout";
 import JoinStartText from './_components/text';

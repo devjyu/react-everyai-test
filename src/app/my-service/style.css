@@ -55,6 +55,9 @@
     /* 세로 중앙 정렬 */
     color: #adadad;
 }
+.right>div{
+    cursor: pointer;
+}
 
 #service-add-btn {
     margin-top: 30px;

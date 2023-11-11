@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "카테고리를 성공적으로 가져왔습니다.",
+  "data": {
+    "productCategoryList": [
+      {
+        "idx": 1,
+        "name": "의류",
+        "productSubCategoryList": [
+          { "idx": 1, "name": "남성 의류" },
+          { "idx": 2, "name": "여성 의류" },
+          { "idx": 3, "name": "아동 의류" }
+        ]
+      },
+      {
+        "idx": 2,
+        "name": "가전제품",
+        "productSubCategoryList": [
+          { "idx": 4, "name": "주방 가전" },
+          { "idx": 5, "name": "생활 가전" },
+          { "idx": 6, "name": "개인용 가전" }
+        ]
+      },
+      {
+        "idx": 3,
+        "name": "가구",
+        "productSubCategoryList": [
+          { "idx": 7, "name": "침실 가구" },
+          { "idx": 8, "name": "거실 가구" },
+          { "idx": 9, "name": "주방 가구" }
+        ]
+      }
+    ]
+  }
+}

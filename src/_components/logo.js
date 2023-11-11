@@ -1,9 +1,13 @@
 import Image from "next/image";
 
 export default function Logo() {
+
+    const goMain = () => {
+        location.href = `/main`;
+    }
     return(
-        <div class="ai-logo">
-            <Image src="" alt="로고" width={50} height={50}/>
+        <div className="ai-logo" onClick={goMain}>
+            <Image src={"/logo.png"} alt="로고" width={50} height={50}/>
         </div>
     );
 }

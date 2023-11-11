@@ -1,13 +1,14 @@
-import '@/app/email-check/email-check.css';
+"use client"
+import '@/app/email-check/style.css';
 import UserLayout from '../../_components/user-layout';
-import EmailCheckText from './_components/text';
-import EmailCheckInput from './_components/input';
+import EmailInputs from './_components/email';
+import Text from './_components/text';
 
 export default function EmailCheck() {
     return(
         <UserLayout>
-            <EmailCheckText />
-            <EmailCheckInput />
+            <Text />
+            <EmailInputs />
         </UserLayout>
     );
 }

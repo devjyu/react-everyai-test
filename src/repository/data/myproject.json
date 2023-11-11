@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "프로젝트 조회 성공",
+  "data": {
+    "projectList": [
+      {
+        "idx": 1,
+        "thumbnailUrl": "https://via.placeholder.com/100",
+        "title": "웹사이트 만들기",
+        "price": 50000,
+        "status": "end",
+        "projectNumber":1111,
+        "dDay": 50
+      },
+      {
+        "idx": 2,
+        "thumbnailUrl": "https://via.placeholder.com/200",
+        "title": "웹사이트 만들기",
+        "price": 50000,
+        "status": "processing",
+        "projectNumber":1555,
+        "dDay": 40
+      },
+      {
+        "idx": 3,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "웹사이트 만들기",
+        "price": 50000,
+        "status": "waitting",
+        "projectNumber":154688,
+        "dDay": 100
+      }
+    ]
+  }
+}

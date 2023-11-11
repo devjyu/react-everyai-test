@@ -1,0 +1,36 @@
+.big-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-date {
+    padding: 5% 3% 3% 0;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.advertisement-banner-thumbnail {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.advertisement-banner-content {
+    margin-bottom: 20px;
+}
+
+.movement-button {
+    display: flex;
+    justify-content: end;
+}
+
+.movement-button > button {
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.movement-button > button:hover {
+    color: #fff;
+}

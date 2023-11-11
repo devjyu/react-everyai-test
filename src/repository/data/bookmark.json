@@ -4,7 +4,7 @@
     "data": [
         {
             "idx": 1,
-            "thumbnailUrl": "https://via.placeholder.com/100",
+            "thumbnailUrl": "https://via.placeholder.com/400",
             "title": "1번 서비스제목",
             "averageRating": 4.0,
             "reviewCount": 1,
@@ -17,7 +17,7 @@
         },
         {
             "idx": 2,
-            "thumbnailUrl": "https://via.placeholder.com/100",
+            "thumbnailUrl": "https://via.placeholder.com/400",
             "title": "2번 서비스제목",
             "averageRating": 4.3,
             "reviewCount": 2,

@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "message": "프로젝트 데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "idx": 1,
+    "nickname": "CreativeDesigner",
+    "userProfileUrl": "https://via.placeholder.com/300",
+    "price": 3000,
+    "isEnd": false,
+    "description": "I provide high-quality design services for various industries.",
+    "introduction": "With over a decade of experience, I have successfully completed numerous design projects.",
+    "workDay": 25
+  }
+}

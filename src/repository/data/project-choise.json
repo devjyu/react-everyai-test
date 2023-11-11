@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "ResProject": {
+      "productCategory": "Software Development",
+      "productSubcategory": "Web Development",
+      "projectTitle": "Sample Web Development Project",
+      "clientProfileUrl": "https://via.placeholder.com/400",
+      "userNickname": "Client123",
+      "price": 500,
+      "description": "This project involves creating a dynamic website for a small business.",
+      "projectPreparation": "The client will provide the necessary content and design guidelines.",
+      "workDay": 30,
+      "thumbnailUrl": "https://via.placeholder.com/400",
+      "imageUrlList": [
+        {
+          "idx": 1,
+          "imageUrl": "https://via.placeholder.com/400"
+        },
+        {
+          "idx": 2,
+          "imageUrl": "https://via.placeholder.com/400"
+        },
+        {
+          "idx": 3,
+          "imageUrl": "https://via.placeholder.com/400"
+        }
+      ],
+      "isEnd": false,
+      "isProposal": true,
+      "isApproval": true
+    }
+  }
+}

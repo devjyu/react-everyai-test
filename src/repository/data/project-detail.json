@@ -1,0 +1,33 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+        "productCategory": "Electronics",
+        "productSubcategory": "Smartphones",
+        "projectTitle": "Developing a New Smartphone App",
+        "clientProfileUrl": "https://via.placeholder.com/300",
+        "userNickname": "JohnDoe",
+        "price": 5000,
+        "description": "Looking for a team to develop a cutting-edge mobile application.",
+        "projectPreparation": "The app design and basic features are already planned.",
+        "workDay": 30,
+        "imageUrlList": [
+          {
+            "idx": 1,
+            "imageUrl": "https://via.placeholder.com/300"
+          },
+          {
+            "idx": 2,
+            "imageUrl": "https://via.placeholder.com/300"
+          },
+          {
+            "idx": 3,
+            "imageUrl": "https://via.placeholder.com/300"
+          }
+        ],
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "isEnd": false,
+        "isProposal": true,
+        "isApproval": false
+      }
+}

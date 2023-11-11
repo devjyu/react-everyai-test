@@ -1,102 +1,49 @@
-import InputField from "@/_components/input-field";
+
 import SelectField from "@/_components/select-field";
+import Image from "next/image";
 
-export default function SentProposal() {
-
+export default function SentProposal({data}) {
+    const proposalOptions = [
+        '진행중',
+        '체택',
+        '마감',
+    ]
+    const handleProjectClick = (index) => {
+        window.location.href = `project-detail/${index}`;
+    };
     return (
         <>
-            <div class="inner-container-body">
-                <div class="sent-proposal-list">
-                    <div class="sent-proposal-list-item">
-                        <div class="sent-proposal-list-item-left">
-                            {/* <img src="https://via.placeholder.com/100" alt="" /> */}
-                            <span>{"{"}마감기한{"{"}</span>
-                        </div>
-                        <div class="recieved-proposal-list-item-middle">
-                            <div class="recieved-proposal-list-item-middle-1">
-                            {"{"}프로젝트 제목{"}"}
+            <div className="filter">
+                <SelectField className="proposal-options" options={proposalOptions} placeholder={"전체 제안"} />
+            </div>
+            <div className="inner-container-body">
+                <div className="sent-proposal-list">
+                    {data.projectList.map((project, index) => (
+                        <div className="sent-proposal-list-item" key={index}>
+                            <div className="sent-proposal-list-item-left">
+                                <Image src={project.thumbnailUrl} alt="placeholder" width={150} height={150}/>
+                                <span>d-{project.dDay}</span>
                             </div>
-                            <div class="sent-proposal-list-item-middle-2">
-                            {"{"}작업기간{"}"} | {"{"}금액{"}"}
+                            <div className="recieved-proposal-list-item-middle">
+                                <div className="recieved-proposal-list-item-middle-1">
+                                    {project.title}
+                                </div>
+                                <div className="sent-proposal-list-item-middle-2">
+                                    작업기간 : {project.workDay} | 비용 : {project.price}
+                                </div>
                             </div>
-                        </div>
-                        <div class="recieved-proposal-list-item-right">
-                            <div>
-                                <div class="project-shortcut"><a href="#">프로젝트 바로가기</a></div>
+                            <div className="recieved-proposal-list-item-right">
                                 <div>
-                                    <div class="sent-proposal-list-item-right-proposal-status">{"{"}제안 상태{"}"}</div>
+                                    <div className="project-shortcut" onClick={() => handleProjectClick(project.idx)}>프로젝트 바로가기</div>
+                                    <div>
+                                        <div className="sent-proposal-list-item-right-proposal-status">{project.status}</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    {/* <!-- 더미 --> */}
-                    <div class="sent-proposal-list-item">
-                        <div class="sent-proposal-list-item-left">
-                            {/* <img src="https://via.placeholder.com/100" alt="" /> */}
-                            <span>{"{"}마감기한{"{"}</span>
-                        </div>
-                        <div class="recieved-proposal-list-item-middle">
-                            <div class="recieved-proposal-list-item-middle-1">
-                            {"{"}프로젝트 제목{"}"}
-                            </div>
-                            <div class="sent-proposal-list-item-middle-2">
-                            {"{"}작업기간{"}"} | {"{"}금액{"}"}
-                            </div>
-                        </div>
-                        <div class="recieved-proposal-list-item-right">
-                            <div>
-                                <div class="project-shortcut"><a href="#">프로젝트 바로가기</a></div>
-                                <div>
-                                    <div class="sent-proposal-list-item-right-proposal-status">{"{"}제안 상태{"}"}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sent-proposal-list-item">
-                        <div class="sent-proposal-list-item-left">
-                            {/* <img src="https://via.placeholder.com/100" alt="" /> */}
-                            <span>{"{"}마감기한{"{"}</span>
-                        </div>
-                        <div class="recieved-proposal-list-item-middle">
-                            <div class="recieved-proposal-list-item-middle-1">
-                            {"{"}프로젝트 제목{"}"}
-                            </div>
-                            <div class="sent-proposal-list-item-middle-2">
-                            {"{"}작업기간{"}"} | {"{"}금액{"}"}
-                            </div>
-                        </div>
-                        <div class="recieved-proposal-list-item-right">
-                            <div>
-                                <div class="project-shortcut"><a href="#">프로젝트 바로가기</a></div>
-                                <div>
-                                    <div class="sent-proposal-list-item-right-proposal-status">{"{"}제안 상태{"}"}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sent-proposal-list-item">
-                        <div class="sent-proposal-list-item-left">
-                            {/* <img src="https://via.placeholder.com/100" alt="" /> */}
-                            <span>{"{"}마감기한{"{"}</span>
-                        </div>
-                        <div class="recieved-proposal-list-item-middle">
-                            <div class="recieved-proposal-list-item-middle-1">
-                            {"{"}프로젝트 제목{"}"}
-                            </div>
-                            <div class="sent-proposal-list-item-middle-2">
-                            {"{"}작업기간{"}"} | {"{"}금액{"}"}
-                            </div>
-                        </div>
-                        <div class="recieved-proposal-list-item-right">
-                            <div>
-                                <div class="project-shortcut"><a href="#">프로젝트 바로가기</a></div>
-                                <div>
-                                    <div class="sent-proposal-list-item-right-proposal-status">{"{"}제안 상태{"}"}</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <!-- 더미 끝 --> */}
+                    ))}
+
+
                 </div>
             </div>
         </>

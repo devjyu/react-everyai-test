@@ -1,0 +1,119 @@
+{
+  "data": {
+    "productCategoryList": [
+      {
+        "idx": 1,
+        "name": "디자인",
+        "productSubCategoryList": [
+          {
+            "idx": 1,
+            "name": "웹 디자인"
+          },
+          {
+            "idx": 2,
+            "name": "캐릭터 디자인"
+          },
+          {
+            "idx": 3,
+            "name": "그림 디자인"
+          }
+        ]
+      },
+      {
+        "idx": 2,
+        "name": "It",
+        "productSubCategoryList": [
+          {
+            "idx": 1,
+            "name": "백엔드"
+          },
+          {
+            "idx": 2,
+            "name": "프론트 엔드"
+          }
+        ]
+      }
+    ],
+
+    "categoryName": "디자인",
+    
+    "serviceList": [
+      {
+        "idx": 1,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "모던하고 심플 감각적인 로고를 제작 해드립니다",
+        "isBookmark": true,
+        "isAD": true,
+        "price": "50000~",
+        "reviewAverageRating": "4.5",
+        "reviewCount": "120",
+        "expertNickName": "하늘 그리다",
+        "expertLevel": "level2",
+        "createDate": "2022.09.01",
+        "expertMessageResponseAverageTime": "120",
+        "expertWorkCompleteCount": "300"
+
+      },
+      {
+        "idx": 2,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "로고를 제작 해드립니다. 제작 비용이 업계 최저인 10pmd을 만나보세요",
+        "isBookmark": false,
+        "isAD": true,
+        "price": "150000~",
+        "reviewAverageRating": "4.3",
+        "reviewCount": "1110",
+        "expertNickName": "10pm",
+        "expertLevel": "level3",
+        "createDate": "2022.11.01",
+        "expertMessageResponseAverageTime": "1250",
+        "expertWorkCompleteCount": "5500"
+      },
+      {
+        "idx": 3,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "모던하고 심플 감각적인 로고를 제작 해드립니다. 제작 비용이 업계 최저인 10pmd을 만나보세요",
+        "isBookmark": true,
+        "isAD": true,
+        "price": "150000~",
+        "reviewAverageRating": "4.3",
+        "reviewCount": "1110",
+        "expertNickName": "10pm",
+        "expertLevel": "level3",
+        "createDate": "2022.11.01",
+        "expertMessageResponseAverageTime": "1250",
+        "expertWorkCompleteCount": "5500"
+      },
+      {
+        "idx": 4,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "모던하고 심플 감각적인 로고를 제작 해드립니다. 제작 비용이 업계 최저인 10pmd을 만나보세요",
+        "isBookmark": false,
+        "isAD": false,
+        "price": "150000~",
+        "reviewAverageRating": "4.3",
+        "reviewCount": "1110",
+        "expertNickName": "10pm",
+        "expertLevel": "level3",
+        "createDate": "2022.11.01",
+        "expertMessageResponseAverageTime": "1250",
+        "expertWorkCompleteCount": "5500"
+      },
+      {
+        "idx": 5,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "모던하고 심플 감각적인 로고를 제작 해드립니다. 제작 비용이 업계 최저인 10pmd을 만나보세요",
+        "isBookmark": false,
+        "isAD": false,
+        "price": "150000~",
+        "reviewAverageRating": "4.3",
+        "reviewCount": "1110",
+        "expertNickName": "10pm",
+        "expertLevel": "master",
+        "createDate": "2022.11.01",
+        "expertMessageResponseAverageTime": "1250",
+        "expertWorkCompleteCount": "5500"
+      }
+    ]
+  }
+}

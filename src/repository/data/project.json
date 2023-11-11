@@ -1,0 +1,85 @@
+{
+  "code": 0,
+  "message": "메인데이터를 성공적으로 가져왔습니다.",
+  "data": {
+    "productCategoryList": [
+      {
+        "idx": 1,
+        "name": "디자인",
+        "productSubCategoryList": [
+          {
+            "idx": 1,
+            "name": "웹 디자인"
+          },
+          {
+            "idx": 2,
+            "name": "캐릭터 디자인"
+          },
+          {
+            "idx": 3,
+            "name": "그림 디자인"
+          }
+        ]
+      },
+      {
+        "idx": 2,
+        "name": "It",
+        "productSubCategoryList": [
+          {
+            "idx": 1,
+            "name": "백엔드"
+          },
+          {
+            "idx": 2,
+            "name": "프론트 엔드"
+          }
+        ]
+      }
+    ],
+    "projectList": [
+      {
+        "idx": 1,
+        "thumbnailUrl": "https://via.placeholder.com/300",
+        "title": "Sample Project 하하하하하ㅏ하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하ㅏㅎ하하하하하하ㅏ하하하",
+
+        "price": 100,
+        "reviewAverageRating": 4.5,
+        "reviewCount": 20,
+        "expertNickName": "Expert1",
+        "expertLevel": "level3",
+        "createDate": "2023-10-28",
+        "expertMessageResponseAverageTime": 24,
+        "expertWorkCompleteCount": 15,
+        "dDay": 10
+      },
+      {
+        "idx": 2,
+        "thumbnailUrl":  "https://via.placeholder.com/300",
+        "title": "Sample Project 2",
+        "price": 200,
+        "reviewAverageRating": 4.0,
+        "reviewCount": 15,
+        "expertNickName": "Expert2",
+        "expertLevel": "level2",
+        "createDate": "2023-10-29",
+        "expertMessageResponseAverageTime": 20,
+        "expertWorkCompleteCount": 10,
+        "dDay": 5
+      },
+      {
+        "idx": 3,
+        "thumbnailUrl":  "https://via.placeholder.com/300",
+        "title": "Sample Project 3",
+        "price": 300,
+        "reviewAverageRating": 4.8,
+        "reviewCount": 25,
+        "expertNickName": "Expert3",
+        "expertLevel": "master",
+        "createDate": "2023-10-30",
+        "expertMessageResponseAverageTime": 18,
+        "expertWorkCompleteCount": 20,
+        "dDay": 8
+      }
+    ]
+  }
+}

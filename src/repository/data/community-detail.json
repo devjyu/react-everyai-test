@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "message": "게시물 상세 정보 조회 성공",
+    "data": {
+        "idx": 1,
+        "title": "첫번째글",
+        "userNickname": "홍길동",
+        "content": "첫번째글 내용",
+        "recommendCount": 2,
+        "commentCount": 2,
+        "viewCount": 10,
+        "createDate": "2023-10-27"
+    }
+}

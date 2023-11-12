@@ -86,6 +86,9 @@ export default function EmailInputs() {
           확인
         </button>
       </div>
+      <button type="submit" className="check-button" disabled>
+        이메일 확인하기
+      </button>
     </div>
   );
 }

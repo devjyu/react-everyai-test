@@ -9,8 +9,8 @@ export default function Text() {
         잊어버리셨나요?
       </div>
       <p className="subtitle-info">
-        입력하신 이메일 확인이 필요해요<br />
-        입력해주세요!
+        사용할 비밀번호를 다시 <br />
+        설정해주세요!
       </p>
     </div>
   );

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@toast-ui/react-editor": "^3.2.3",
     "jsonwebtoken": "^9.0.2",
     "next": "13.5.4",
     "react": "^18",

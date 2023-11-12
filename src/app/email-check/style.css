@@ -1,69 +1,79 @@
 .join-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blue {
-    color: #3e9ce4;
+  color: #3e9ce4;
 }
 
 .instructions {
-    font-size: 40px;
-    font-weight: bold;
-    margin: 20px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0px;
 }
 
 .subtitle-info {
-    color: #adadad;
-    font-size: 15px;
-    margin-bottom: 20px;
+  color: #adadad;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
-.email .email-check{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 18px;
+.email .email-check {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .star {
-    color: red;
+  color: red;
 }
 
 .email > div {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .email-send {
-    display: flex;
+  display: flex;
 }
 
-.email-check-button, .email-send-button {
-    width: 95px;
+.email-check-button,
+.email-send-button {
+  width: 95px;
 }
 
-.email-send, .email-check {
-    display: flex;
+.email-send,
+.email-check {
+  display: flex;
 }
 
-.email-check-button, .email-send-button {
-    width: 95px;
+.email-check-button,
+.email-send-button {
+  width: 95px;
 }
 
 input {
-    width: 100%;
-    height: 50px;
-    /* 테두리 색상을 연하게 지정 (투명도를 조절) */
+  width: 100%;
+  height: 50px;
+  /* 테두리 색상을 연하게 지정 (투명도를 조절) */
 }
 
 .message {
-    font-size: 9px;
-    margin: 5px 0px 20px 0px;
-  }
-  
-  .success {
-    color: green;
-  }
-  
-  .error {
-    color: red;
-  }
+  font-size: 9px;
+  margin: 5px 0px 20px 0px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.check-button {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}

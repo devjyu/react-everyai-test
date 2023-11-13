@@ -1,144 +1,148 @@
 input {
-    width: 100%;
-    height: 50px;
-    /* 테두리 색상을 연하게 지정 (투명도를 조절) */
+  width: 100%;
+  height: 50px;
+  /* 테두리 색상을 연하게 지정 (투명도를 조절) */
 }
 
 /* class */
 
 .no-container:not(.join-container) {
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 800px;
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 50px 0px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 50px 0px;
 }
 
 .inner-container > div {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .inner-container > div > label {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .inner-container input:focus {
-    border-color: #3e9ce4;
-    outline: none;
+  border-color: #3e9ce4;
+  outline: none;
 }
 
 .join-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .join-every-ai {
-    color: #3e9ce4;
+  color: #3e9ce4;
 }
 
 .join-title-information {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: bolder;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .email {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .email > div {
-    margin: 5px 0px;
+  margin: 5px 0px;
 }
 
 .star {
-    color: red;
+  color: red;
 }
 
-.email-send, .email-check {
-    display: flex;
+.email-send,
+.email-check {
+  display: flex;
 }
 
-.email-check-button, .email-send-button {
-    width: 95px;
+.email-check-button,
+.email-send-button {
+  width: 95px;
 }
 
 .password {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .password > div {
-    margin: 5px 0px;
+  margin: 5px 0px;
 }
 
-.job, .business {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 18px;
+.job,
+.business {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
-.job-select, .business-select {
-    width: 100%;
-    height: 50px;
-    margin: 5px 0;
+.job-select,
+.business-select {
+  width: 100%;
+  height: 50px;
+  margin: 5px 0;
 }
 
 .join-agree > div {
-    margin: 25px 0px;
+  margin: 25px 0px;
 }
 
 .join-agree-detail {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .join-agree-detail-title {
-    color: #adadad;
-    font-size: 15px;
-    width: 100%;
-    margin-right: 20px;
-    height: 15px;
+  color: #adadad;
+  font-size: 15px;
+  width: 100%;
+  margin-right: 20px;
+  height: 15px;
 }
 
 .checkbox {
-    margin-right: 10px;
-    width: 15px;
+  margin-right: 10px;
+  width: 15px;
 }
 
 .join-membership {
-    height: 50px;
-    width: 95%;
-    border-radius: 5px;
-    margin-top: 20px;
+  height: 50px;
+  width: 95%;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 /* input값에 대한 정보의 css */
 .message {
-    font-size: 9px;
-    margin: 5px 0px 20px 0px;
-  }
-  
-  .success {
-    color: green;
-  }
-  
-  .error {
-    color: red;
-  }
+  font-size: 9px;
+  margin: 5px 0px 20px 0px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
 
 .timer {
-    font-size: 9px;
+  font-size: 9px;
 }

@@ -61,11 +61,11 @@ export default function EmailInput({ value, onChange }) {
         alert("사용 가능한 이메일입니다.");
         setIsEmailVerified(true); // 성공 시 이메일을 더 이상 수정할 수 없게 설정
         setIsButtonChanged(true);
-        // 여기서 타이머 시작
       } else {
         // 이메일이 사용할 수 없는 경우 오류 메시지를 표시합니다.
         const responseData = await response.json();
-        alert(`오류: ${response.status} - ${responseData.error}`);
+        // alert(`오류: ${response.status} - ${responseData.error}`);
+        alert("사용 불가능한 이메일입니다.");
       }
     } else {
       alert("이메일을 양식에 맞게 작성해주세요");
